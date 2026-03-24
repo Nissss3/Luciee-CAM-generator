@@ -1,0 +1,105 @@
+{
+  "source_type": "gst",
+  "company_id": "COMP_001",
+  "ingested_at": "20260321_191724",
+  "row_count": 8,
+  "data": [
+    {
+      "quarter": "Q1-FY23",
+      "fiscal_year": -1,
+      "total_turnover": 3850000000,
+      "taxable_supply": 3542000000,
+      "gst_collected": 637560000,
+      "itc_claimed": 510048000,
+      "net_gst_paid": 127512000,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "quarter": "Q2-FY23",
+      "fiscal_year": -1,
+      "total_turnover": 4120000000,
+      "taxable_supply": 3790400000,
+      "gst_collected": 682272000,
+      "itc_claimed": 545817600,
+      "net_gst_paid": 136454400,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "quarter": "Q3-FY23",
+      "fiscal_year": -1,
+      "total_turnover": 3980000000,
+      "taxable_supply": 3661600000,
+      "gst_collected": 658988000,
+      "itc_claimed": 527190400,
+      "net_gst_paid": 131797600,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "quarter": "Q4-FY23",
+      "fiscal_year": -1,
+      "total_turnover": 4450000000,
+      "taxable_supply": 4094000000,
+      "gst_collected": 736920000,
+      "itc_claimed": 589536000,
+      "net_gst_paid": 147384000,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "quarter": "Q1-FY24",
+      "fiscal_year": -1,
+      "total_turnover": 4680000000,
+      "taxable_supply": 4305600000,
+      "gst_collected": 774998400,
+      "itc_claimed": 619998720,
+      "net_gst_paid": 154999680,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "quarter": "Q2-FY24",
+      "fiscal_year": -1,
+      "total_turnover": 4920000000,
+      "taxable_supply": 4526400000,
+      "gst_collected": 814752000,
+      "itc_claimed": 651801600,
+      "net_gst_paid": 162950400,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "quarter": "Q3-FY24",
+      "fiscal_year": -1,
+      "total_turnover": 5150000000,
+      "taxable_supply": 4738000000,
+      "gst_collected": 852840000,
+      "itc_claimed": 682272000,
+      "net_gst_paid": 170568000,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "quarter": "Q4-FY24",
+      "fiscal_year": -1,
+      "total_turnover": 5480000000,
+      "taxable_supply": 5041600000,
+      "gst_collected": 907488000,
+      "itc_claimed": 725990400,
+      "net_gst_paid": 181497600,
+      "filing_status": "Filed",
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    }
+  ],
+  "file_hash": "2da35dcfd40049fd61e796c9d8ae7e27"
+}

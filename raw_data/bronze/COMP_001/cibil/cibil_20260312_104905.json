@@ -1,0 +1,19 @@
+{
+  "source_type": "cibil",
+  "company_id": "COMP_001",
+  "ingested_at": "20260312_104905",
+  "data": {
+    "company": "Thakur Trusts",
+    "cibil_score": 685,
+    "score_band": "Fair",
+    "total_accounts": 5,
+    "active_accounts": 5,
+    "overdue_accounts": 0,
+    "dpd_last_12_months": 2,
+    "enquiries_last_6_months": 2,
+    "total_outstanding": 19794279,
+    "report_date": "2026-03-12",
+    "source": "SYNTHETIC"
+  },
+  "file_hash": "a9939fb41c0be9fc44e1ac99c79912bd"
+}

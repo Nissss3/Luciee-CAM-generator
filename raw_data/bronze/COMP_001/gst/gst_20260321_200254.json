@@ -1,0 +1,53 @@
+{
+  "source_type": "gst",
+  "company_id": "COMP_001",
+  "ingested_at": "20260321_200254",
+  "row_count": 4,
+  "data": [
+    {
+      "quarter": "Q1-2024",
+      "company": "Tata Steel Limited",
+      "total_turnover": 1027286784,
+      "taxable_supply": 945103841,
+      "gst_collected": 170118691,
+      "itc_claimed": 127019860,
+      "net_gst_paid": 43098832,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q2-2024",
+      "company": "Tata Steel Limited",
+      "total_turnover": 1389750113,
+      "taxable_supply": 1278570104,
+      "gst_collected": 230142619,
+      "itc_claimed": 194541373,
+      "net_gst_paid": 35601246,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q3-2024",
+      "company": "Tata Steel Limited",
+      "total_turnover": 1183712569,
+      "taxable_supply": 1089015563,
+      "gst_collected": 196022801,
+      "itc_claimed": 158866307,
+      "net_gst_paid": 37156495,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q4-2024",
+      "company": "Tata Steel Limited",
+      "total_turnover": 1255111620,
+      "taxable_supply": 1154702690,
+      "gst_collected": 207846484,
+      "itc_claimed": 170622702,
+      "net_gst_paid": 37223782,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "e2e85b2e29c3358456290f1794d65c79"
+}

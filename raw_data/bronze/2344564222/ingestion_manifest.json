@@ -1,0 +1,52 @@
+{
+  "borrower": {
+    "company_id": "2344564222",
+    "company_name": "abc",
+    "industry": "fan",
+    "promoter_name": "aniska",
+    "cin": "L07PLC000260",
+    "loan_amount": 51000000,
+    "loan_purpose": "CAPEX",
+    "loan_tenure_years": 6,
+    "application_date": "2026-03-12"
+  },
+  "ingestion_timestamp": "2026-03-12T00:52:18.874995",
+  "bronze_root": "C:\\Users\\anisk\\OneDrive\\Desktop\\Credit\\raw_data\\bronze",
+  "sources": {
+    "financials": {
+      "status": "\u2705",
+      "rows": 6,
+      "source": "SYNTHETIC"
+    },
+    "bank_statements": {
+      "status": "\u2705",
+      "rows": 284,
+      "source": "SYNTHETIC"
+    },
+    "gst": {
+      "status": "\u2705",
+      "rows": 4,
+      "source": "SYNTHETIC"
+    },
+    "cibil": {
+      "status": "\u2705",
+      "score": 747,
+      "source": "SYNTHETIC",
+      "encryption_pending": true
+    },
+    "mca": {
+      "status": "\u2705",
+      "source": "SYNTHETIC"
+    },
+    "cma": {
+      "status": "\u2705",
+      "rows": 5,
+      "source": "SYNTHETIC"
+    },
+    "pdfs": {
+      "status": "\u26a0\ufe0f",
+      "files": 0
+    }
+  },
+  "ready_for_layer2": true
+}

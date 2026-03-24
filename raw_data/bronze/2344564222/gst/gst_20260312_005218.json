@@ -1,0 +1,53 @@
+{
+  "source_type": "gst",
+  "company_id": "2344564222",
+  "ingested_at": "20260312_005218",
+  "row_count": 4,
+  "data": [
+    {
+      "quarter": "Q1-2024",
+      "company": "abc",
+      "total_turnover": 1099276260,
+      "taxable_supply": 1011334159,
+      "gst_collected": 182040149,
+      "itc_claimed": 140645116,
+      "net_gst_paid": 41395033,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q2-2024",
+      "company": "abc",
+      "total_turnover": 1098680431,
+      "taxable_supply": 1010785997,
+      "gst_collected": 181941479,
+      "itc_claimed": 128336574,
+      "net_gst_paid": 53604905,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q3-2024",
+      "company": "abc",
+      "total_turnover": 1374773968,
+      "taxable_supply": 1264792051,
+      "gst_collected": 227662569,
+      "itc_claimed": 173168462,
+      "net_gst_paid": 54494107,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q4-2024",
+      "company": "abc",
+      "total_turnover": 1076650193,
+      "taxable_supply": 990518177,
+      "gst_collected": 178293272,
+      "itc_claimed": 149221366,
+      "net_gst_paid": 29071906,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "a5467795ebff1aeef396b3588d91aebf"
+}

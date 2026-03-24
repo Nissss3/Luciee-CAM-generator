@@ -1,0 +1,2277 @@
+{
+  "source_type": "bank_statements",
+  "company_id": "COMP_001",
+  "ingested_at": "20260321_200254",
+  "row_count": 252,
+  "data": [
+    {
+      "date": "2024-01-02",
+      "description": "GST Payment",
+      "debit": 4007263,
+      "credit": 0,
+      "balance": 27167534,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-03",
+      "description": "Miscellaneous",
+      "debit": 3591633,
+      "credit": 0,
+      "balance": 31174798,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-06",
+      "description": "GST Payment",
+      "debit": 2891432,
+      "credit": 0,
+      "balance": 26987031,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8681421,
+      "balance": 40035095,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-12",
+      "description": "Salary Payment",
+      "debit": 469677,
+      "credit": 0,
+      "balance": 29734359,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-13",
+      "description": "Raw Material Payment",
+      "debit": 4938528,
+      "credit": 0,
+      "balance": 22048503,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-14",
+      "description": "Utility Payment",
+      "debit": 2763283,
+      "credit": 0,
+      "balance": 47236717,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-15",
+      "description": "Raw Material Payment",
+      "debit": 1268498,
+      "credit": 0,
+      "balance": 36007638,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-17",
+      "description": "Utility Payment",
+      "debit": 4653965,
+      "credit": 0,
+      "balance": 31353674,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-17",
+      "description": "Raw Material Payment",
+      "debit": 2719410,
+      "credit": 0,
+      "balance": 35684180,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9869539,
+      "balance": 34766431,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-18",
+      "description": "Salary Payment",
+      "debit": 4837467,
+      "credit": 0,
+      "balance": 24896892,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-19",
+      "description": "Salary Payment",
+      "debit": 683100,
+      "credit": 0,
+      "balance": 30688915,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-20",
+      "description": "Loan EMI",
+      "debit": 3800187,
+      "credit": 0,
+      "balance": 31372014,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-21",
+      "description": "Salary Payment",
+      "debit": 3976046,
+      "credit": 0,
+      "balance": 43260671,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-21",
+      "description": "Salary Payment",
+      "debit": 810452,
+      "credit": 0,
+      "balance": 29878463,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8155533,
+      "balance": 30204036,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-23",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1591955,
+      "balance": 37276136,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-25",
+      "description": "Loan EMI",
+      "debit": 4857081,
+      "credit": 0,
+      "balance": 38403590,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-26",
+      "description": "GST Payment",
+      "debit": 4862894,
+      "credit": 0,
+      "balance": 35172201,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2341663,
+      "balance": 33972870,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-03",
+      "description": "Raw Material Payment",
+      "debit": 2250591,
+      "credit": 0,
+      "balance": 28823014,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3565640,
+      "balance": 39406399,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-05",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7543700,
+      "balance": 42508734,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-07",
+      "description": "Raw Material Payment",
+      "debit": 234560,
+      "credit": 0,
+      "balance": 42274174,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4513727,
+      "balance": 31631207,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3144542,
+      "balance": 32837666,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-09",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7996844,
+      "balance": 40834510,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-10",
+      "description": "Loan EMI",
+      "debit": 2421614,
+      "credit": 0,
+      "balance": 36984785,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-11",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3906071,
+      "balance": 31073606,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-11",
+      "description": "GST Payment",
+      "debit": 4226167,
+      "credit": 0,
+      "balance": 29693125,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-13",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 2750388,
+      "balance": 36723258,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-15",
+      "description": "Salary Payment",
+      "debit": 1396310,
+      "credit": 0,
+      "balance": 39438200,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-16",
+      "description": "Salary Payment",
+      "debit": 812039,
+      "credit": 0,
+      "balance": 36172746,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-16",
+      "description": "Raw Material Payment",
+      "debit": 2694034,
+      "credit": 0,
+      "balance": 34029223,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4584542,
+      "balance": 33919292,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-23",
+      "description": "Salary Payment",
+      "debit": 4694474,
+      "credit": 0,
+      "balance": 29334750,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-27",
+      "description": "Salary Payment",
+      "debit": 3597441,
+      "credit": 0,
+      "balance": 35840759,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-28",
+      "description": "Raw Material Payment",
+      "debit": 1207712,
+      "credit": 0,
+      "balance": 34965035,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-28",
+      "description": "Salary Payment",
+      "debit": 1705535,
+      "credit": 0,
+      "balance": 27117479,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-02",
+      "description": "Salary Payment",
+      "debit": 2794951,
+      "credit": 0,
+      "balance": 59642320,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-03",
+      "description": "Raw Material Payment",
+      "debit": 3642271,
+      "credit": 0,
+      "balance": 38631903,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-05",
+      "description": "GST Payment",
+      "debit": 3006735,
+      "credit": 0,
+      "balance": 68129437,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-10",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7098026,
+      "balance": 75227464,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 945488,
+      "balance": 52974037,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-15",
+      "description": "Raw Material Payment",
+      "debit": 3305804,
+      "credit": 0,
+      "balance": 71921660,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-20",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9340274,
+      "balance": 81261934,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-20",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9669931,
+      "balance": 62643968,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-21",
+      "description": "Salary Payment",
+      "debit": 3471997,
+      "credit": 0,
+      "balance": 74589657,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4676042,
+      "balance": 72927960,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3657478,
+      "balance": 42289381,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-23",
+      "description": "Raw Material Payment",
+      "debit": 206697,
+      "credit": 0,
+      "balance": 62437271,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-23",
+      "description": "Loan EMI",
+      "debit": 1791788,
+      "credit": 0,
+      "balance": 71136172,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-24",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 8609599,
+      "balance": 68251918,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9739168,
+      "balance": 52028549,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-24",
+      "description": "Loan EMI",
+      "debit": 941808,
+      "credit": 0,
+      "balance": 73647849,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-25",
+      "description": "GST Payment",
+      "debit": 1626471,
+      "credit": 0,
+      "balance": 72021378,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-27",
+      "description": "Miscellaneous",
+      "debit": 3200280,
+      "credit": 0,
+      "balance": 78061654,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-03",
+      "description": "Loan EMI",
+      "debit": 3027146,
+      "credit": 0,
+      "balance": 71675458,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-06",
+      "description": "Utility Payment",
+      "debit": 950573,
+      "credit": 0,
+      "balance": 66010077,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-07",
+      "description": "Salary Payment",
+      "debit": 2753947,
+      "credit": 0,
+      "balance": 68921358,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-07",
+      "description": "Salary Payment",
+      "debit": 3669454,
+      "credit": 0,
+      "balance": 64812449,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-08",
+      "description": "Raw Material Payment",
+      "debit": 4237260,
+      "credit": 0,
+      "balance": 67784118,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4521705,
+      "balance": 65248263,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-10",
+      "description": "Raw Material Payment",
+      "debit": 1055636,
+      "credit": 0,
+      "balance": 66728483,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-11",
+      "description": "Raw Material Payment",
+      "debit": 2843107,
+      "credit": 0,
+      "balance": 65905213,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8152330,
+      "balance": 70746442,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-15",
+      "description": "Miscellaneous",
+      "debit": 3202983,
+      "credit": 0,
+      "balance": 68748321,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-16",
+      "description": "Loan EMI",
+      "debit": 2532295,
+      "credit": 0,
+      "balance": 62280154,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7396864,
+      "balance": 69182846,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-19",
+      "description": "Salary Payment",
+      "debit": 2676836,
+      "credit": 0,
+      "balance": 66506009,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-19",
+      "description": "Raw Material Payment",
+      "debit": 4224095,
+      "credit": 0,
+      "balance": 61785982,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-19",
+      "description": "GST Payment",
+      "debit": 1294121,
+      "credit": 0,
+      "balance": 60726558,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-22",
+      "description": "Loan EMI",
+      "debit": 2654151,
+      "credit": 0,
+      "balance": 62594112,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9671150,
+      "balance": 71951304,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-24",
+      "description": "Loan EMI",
+      "debit": 4087668,
+      "credit": 0,
+      "balance": 66960650,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5781245,
+      "balance": 74702604,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-26",
+      "description": "Miscellaneous",
+      "debit": 4707804,
+      "credit": 0,
+      "balance": 62020679,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-27",
+      "description": "Raw Material Payment",
+      "debit": 2264539,
+      "credit": 0,
+      "balance": 68481902,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-28",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5143105,
+      "balance": 71048318,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-28",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7152481,
+      "balance": 73658490,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-28",
+      "description": "Raw Material Payment",
+      "debit": 1983185,
+      "credit": 0,
+      "balance": 71675306,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-04",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 9153530,
+      "balance": 82022576,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-05",
+      "description": "Loan EMI",
+      "debit": 1132074,
+      "credit": 0,
+      "balance": 74664462,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-06",
+      "description": "Raw Material Payment",
+      "debit": 2727293,
+      "credit": 0,
+      "balance": 72869046,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-07",
+      "description": "Utility Payment",
+      "debit": 513654,
+      "credit": 0,
+      "balance": 80423958,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7865593,
+      "balance": 82530055,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-08",
+      "description": "Salary Payment",
+      "debit": 1512762,
+      "credit": 0,
+      "balance": 70162696,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-11",
+      "description": "Raw Material Payment",
+      "debit": 1460228,
+      "credit": 0,
+      "balance": 75596339,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-11",
+      "description": "Loan EMI",
+      "debit": 628516,
+      "credit": 0,
+      "balance": 81901539,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-11",
+      "description": "GST Payment",
+      "debit": 4627423,
+      "credit": 0,
+      "balance": 75796536,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-13",
+      "description": "Raw Material Payment",
+      "debit": 2407955,
+      "credit": 0,
+      "balance": 64996344,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-15",
+      "description": "Salary Payment",
+      "debit": 2947344,
+      "credit": 0,
+      "balance": 76991880,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-15",
+      "description": "Miscellaneous",
+      "debit": 4505351,
+      "credit": 0,
+      "balance": 60490993,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-20",
+      "description": "Miscellaneous",
+      "debit": 2083352,
+      "credit": 0,
+      "balance": 79939224,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-23",
+      "description": "Raw Material Payment",
+      "debit": 4844973,
+      "credit": 0,
+      "balance": 77056566,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-24",
+      "description": "Salary Payment",
+      "debit": 2758397,
+      "credit": 0,
+      "balance": 67404299,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5698430,
+      "balance": 80937612,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-27",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7975819,
+      "balance": 68466812,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-28",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6772370,
+      "balance": 75239183,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-04",
+      "description": "Miscellaneous",
+      "debit": 4174766,
+      "credit": 0,
+      "balance": 111007787,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5285697,
+      "balance": 104106869,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-11",
+      "description": "Raw Material Payment",
+      "debit": 2231764,
+      "credit": 0,
+      "balance": 108800134,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-11",
+      "description": "Raw Material Payment",
+      "debit": 883629,
+      "credit": 0,
+      "balance": 91659092,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-13",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1417391,
+      "balance": 111031898,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-13",
+      "description": "Raw Material Payment",
+      "debit": 1801198,
+      "credit": 0,
+      "balance": 92542721,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-14",
+      "description": "GST Payment",
+      "debit": 3526292,
+      "credit": 0,
+      "balance": 95246653,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-14",
+      "description": "Salary Payment",
+      "debit": 1791751,
+      "credit": 0,
+      "balance": 98821172,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3497818,
+      "balance": 107604687,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-16",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 7808302,
+      "balance": 84800183,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-17",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5764759,
+      "balance": 94343919,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-17",
+      "description": "Salary Payment",
+      "debit": 2692671,
+      "credit": 0,
+      "balance": 108315116,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-18",
+      "description": "GST Payment",
+      "debit": 2079863,
+      "credit": 0,
+      "balance": 115182553,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3778977,
+      "balance": 88579160,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1299391,
+      "balance": 109614508,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-24",
+      "description": "Loan EMI",
+      "debit": 3085950,
+      "credit": 0,
+      "balance": 105714184,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9657728,
+      "balance": 117262416,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-27",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3617759,
+      "balance": 109331943,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-27",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5366270,
+      "balance": 100612922,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-28",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6162898,
+      "balance": 115494841,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-28",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7113852,
+      "balance": 98772945,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8247682,
+      "balance": 153158386,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-02",
+      "description": "GST Payment",
+      "debit": 3098995,
+      "credit": 0,
+      "balance": 110728913,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7343658,
+      "balance": 119763814,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-05",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 6157694,
+      "balance": 146175364,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3176432,
+      "balance": 112420156,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2412791,
+      "balance": 147018497,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-07",
+      "description": "Miscellaneous",
+      "debit": 3838156,
+      "credit": 0,
+      "balance": 149320230,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-08",
+      "description": "Utility Payment",
+      "debit": 1666934,
+      "credit": 0,
+      "balance": 113827908,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-08",
+      "description": "Utility Payment",
+      "debit": 4714523,
+      "credit": 0,
+      "balance": 144605706,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-08",
+      "description": "Utility Payment",
+      "debit": 3004266,
+      "credit": 0,
+      "balance": 111130052,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6457114,
+      "balance": 140017670,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-11",
+      "description": "Salary Payment",
+      "debit": 3972248,
+      "credit": 0,
+      "balance": 114134317,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-12",
+      "description": "Raw Material Payment",
+      "debit": 1264661,
+      "credit": 0,
+      "balance": 144910704,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-14",
+      "description": "Salary Payment",
+      "debit": 2367192,
+      "credit": 0,
+      "balance": 137563761,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-15",
+      "description": "Loan EMI",
+      "debit": 3363539,
+      "credit": 0,
+      "balance": 104537325,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-15",
+      "description": "Raw Material Payment",
+      "debit": 3098124,
+      "credit": 0,
+      "balance": 139930953,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1798257,
+      "balance": 143029077,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-15",
+      "description": "Raw Material Payment",
+      "debit": 2828048,
+      "credit": 0,
+      "balance": 107900865,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8240947,
+      "balance": 107995233,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-16",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1493586,
+      "balance": 109488819,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-19",
+      "description": "Miscellaneous",
+      "debit": 4783039,
+      "credit": 0,
+      "balance": 99754286,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-20",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 8617747,
+      "balance": 118106565,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 889972,
+      "balance": 109243724,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-22",
+      "description": "Loan EMI",
+      "debit": 4003205,
+      "credit": 0,
+      "balance": 133560556,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9066485,
+      "balance": 141230820,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8794445,
+      "balance": 132164335,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-26",
+      "description": "Salary Payment",
+      "debit": 2776299,
+      "credit": 0,
+      "balance": 108353752,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-27",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3606076,
+      "balance": 123369890,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5579597,
+      "balance": 150248092,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3955716,
+      "balance": 158714781,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-04",
+      "description": "Loan EMI",
+      "debit": 344273,
+      "credit": 0,
+      "balance": 166043851,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-04",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4056018,
+      "balance": 151354676,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-06",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 811092,
+      "balance": 145461206,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-09",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9297859,
+      "balance": 154759065,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-10",
+      "description": "Raw Material Payment",
+      "debit": 532653,
+      "credit": 0,
+      "balance": 148665032,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-11",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7673343,
+      "balance": 166388124,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-11",
+      "description": "Raw Material Payment",
+      "debit": 4014919,
+      "credit": 0,
+      "balance": 144650113,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-13",
+      "description": "Raw Material Payment",
+      "debit": 4295988,
+      "credit": 0,
+      "balance": 142722510,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9627658,
+      "balance": 154864460,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-14",
+      "description": "Loan EMI",
+      "debit": 1371861,
+      "credit": 0,
+      "balance": 151963057,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-14",
+      "description": "Loan EMI",
+      "debit": 1509284,
+      "credit": 0,
+      "balance": 145236802,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-14",
+      "description": "Raw Material Payment",
+      "debit": 4487801,
+      "credit": 0,
+      "balance": 150376658,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-15",
+      "description": "Raw Material Payment",
+      "debit": 2659524,
+      "credit": 0,
+      "balance": 147980347,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-16",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7028381,
+      "balance": 150639871,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-16",
+      "description": "Raw Material Payment",
+      "debit": 4764346,
+      "credit": 0,
+      "balance": 143611490,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-17",
+      "description": "Loan EMI",
+      "debit": 4023503,
+      "credit": 0,
+      "balance": 143956844,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-19",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 711652,
+      "balance": 144668496,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-20",
+      "description": "Salary Payment",
+      "debit": 4608590,
+      "credit": 0,
+      "balance": 146746086,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5653326,
+      "balance": 148375836,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3600685,
+      "balance": 169644536,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-26",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 3086826,
+      "balance": 153334918,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-28",
+      "description": "Raw Material Payment",
+      "debit": 4664399,
+      "credit": 0,
+      "balance": 147298658,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-28",
+      "description": "Loan EMI",
+      "debit": 1178973,
+      "credit": 0,
+      "balance": 149197685,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-02",
+      "description": "Miscellaneous",
+      "debit": 4749300,
+      "credit": 0,
+      "balance": 166418300,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-04",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4359253,
+      "balance": 180388190,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-06",
+      "description": "Raw Material Payment",
+      "debit": 4820448,
+      "credit": 0,
+      "balance": 166457714,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4621631,
+      "balance": 174266166,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4583534,
+      "balance": 184971725,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-09",
+      "description": "Salary Payment",
+      "debit": 1394550,
+      "credit": 0,
+      "balance": 192376076,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-09",
+      "description": "Raw Material Payment",
+      "debit": 1422604,
+      "credit": 0,
+      "balance": 171167601,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-10",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9031645,
+      "balance": 197233131,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 798271,
+      "balance": 182146194,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-14",
+      "description": "Salary Payment",
+      "debit": 271470,
+      "credit": 0,
+      "balance": 171278163,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-14",
+      "description": "Loan EMI",
+      "debit": 4123155,
+      "credit": 0,
+      "balance": 168564307,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-14",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 2985326,
+      "balance": 171549633,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-15",
+      "description": "Salary Payment",
+      "debit": 4305820,
+      "credit": 0,
+      "balance": 181347923,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-16",
+      "description": "Raw Material Payment",
+      "debit": 3014969,
+      "credit": 0,
+      "balance": 194218161,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-18",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9571223,
+      "balance": 176028937,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-18",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4190977,
+      "balance": 172687461,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 682018,
+      "balance": 185653743,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-23",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6055291,
+      "balance": 188201486,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2078184,
+      "balance": 168496484,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-26",
+      "description": "Raw Material Payment",
+      "debit": 447536,
+      "credit": 0,
+      "balance": 193770626,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-26",
+      "description": "Salary Payment",
+      "debit": 1675962,
+      "credit": 0,
+      "balance": 172590204,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-03",
+      "description": "Raw Material Payment",
+      "debit": 4092644,
+      "credit": 0,
+      "balance": 203167359,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9697328,
+      "balance": 207759938,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8704942,
+      "balance": 207060013,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-05",
+      "description": "Raw Material Payment",
+      "debit": 1863736,
+      "credit": 0,
+      "balance": 203793962,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-05",
+      "description": "Raw Material Payment",
+      "debit": 3136276,
+      "credit": 0,
+      "balance": 204623662,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-07",
+      "description": "Loan EMI",
+      "debit": 1269922,
+      "credit": 0,
+      "balance": 198062610,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-09",
+      "description": "Salary Payment",
+      "debit": 827170,
+      "credit": 0,
+      "balance": 209623301,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-10",
+      "description": "Loan EMI",
+      "debit": 363628,
+      "credit": 0,
+      "balance": 202803731,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-10",
+      "description": "GST Payment",
+      "debit": 681300,
+      "credit": 0,
+      "balance": 206378712,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-13",
+      "description": "Utility Payment",
+      "debit": 2446645,
+      "credit": 0,
+      "balance": 202177017,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1354791,
+      "balance": 203531809,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-15",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4071758,
+      "balance": 210450471,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-15",
+      "description": "Raw Material Payment",
+      "debit": 4120132,
+      "credit": 0,
+      "balance": 199332532,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-16",
+      "description": "Salary Payment",
+      "debit": 3965603,
+      "credit": 0,
+      "balance": 205657698,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8231511,
+      "balance": 209682639,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 998926,
+      "balance": 203802657,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2412104,
+      "balance": 207260003,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-19",
+      "description": "Raw Material Payment",
+      "debit": 2080681,
+      "credit": 0,
+      "balance": 201451127,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-21",
+      "description": "Raw Material Payment",
+      "debit": 341298,
+      "credit": 0,
+      "balance": 203452664,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-23",
+      "description": "Salary Payment",
+      "debit": 416500,
+      "credit": 0,
+      "balance": 204847899,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5978995,
+      "balance": 198355071,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-27",
+      "description": "Utility Payment",
+      "debit": 4418240,
+      "credit": 0,
+      "balance": 205264399,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 702862,
+      "balance": 219561878,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-06",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6948722,
+      "balance": 231002572,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-06",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3220531,
+      "balance": 224053850,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7861582,
+      "balance": 215288063,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3570954,
+      "balance": 218859016,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1345249,
+      "balance": 199389501,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-09",
+      "description": "GST Payment",
+      "debit": 1040293,
+      "credit": 0,
+      "balance": 202762365,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-09",
+      "description": "Loan EMI",
+      "debit": 912313,
+      "credit": 0,
+      "balance": 229033533,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-10",
+      "description": "Loan EMI",
+      "debit": 1056727,
+      "credit": 0,
+      "balance": 229945845,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6158734,
+      "balance": 207426481,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-20",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1453596,
+      "balance": 230487128,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-21",
+      "description": "Loan EMI",
+      "debit": 4166123,
+      "credit": 0,
+      "balance": 198044252,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1878246,
+      "balance": 201267747,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-22",
+      "description": "GST Payment",
+      "debit": 3883043,
+      "credit": 0,
+      "balance": 215678835,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-27",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5154485,
+      "balance": 220833319,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-28",
+      "description": "Salary Payment",
+      "debit": 551989,
+      "credit": 0,
+      "balance": 202210375,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2758511,
+      "balance": 235234069,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-07",
+      "description": "Raw Material Payment",
+      "debit": 2129640,
+      "credit": 0,
+      "balance": 234846563,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2253784,
+      "balance": 235842267,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-10",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 943828,
+      "balance": 232398801,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3684785,
+      "balance": 241858034,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-14",
+      "description": "Loan EMI",
+      "debit": 1848629,
+      "credit": 0,
+      "balance": 231454972,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-14",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 8210280,
+      "balance": 241193735,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-16",
+      "description": "Loan EMI",
+      "debit": 3368390,
+      "credit": 0,
+      "balance": 235756654,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-17",
+      "description": "Raw Material Payment",
+      "debit": 669715,
+      "credit": 0,
+      "balance": 240524020,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-18",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 2330983,
+      "balance": 238173250,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-19",
+      "description": "Raw Material Payment",
+      "debit": 2371005,
+      "credit": 0,
+      "balance": 232475558,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-20",
+      "description": "Loan EMI",
+      "debit": 4263570,
+      "credit": 0,
+      "balance": 231493084,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1189682,
+      "balance": 233588483,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-21",
+      "description": "Utility Payment",
+      "debit": 4058339,
+      "credit": 0,
+      "balance": 239125044,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-23",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 2659363,
+      "balance": 243183383,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-25",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1810517,
+      "balance": 233303601,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-25",
+      "description": "Salary Payment",
+      "debit": 683124,
+      "credit": 0,
+      "balance": 236976203,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2496327,
+      "balance": 232983455,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-28",
+      "description": "Raw Material Payment",
+      "debit": 4198707,
+      "credit": 0,
+      "balance": 237659328,
+      "company": "Tata Steel Limited",
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "b4f493841dedbf3b279cda3a346ac8bd"
+}

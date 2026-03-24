@@ -1,0 +1,30 @@
+{
+  "source_type": "mca",
+  "company_id": "COMP_001",
+  "ingested_at": "20260312_005123",
+  "data": {
+    "company_name": "Tata Steel Limited",
+    "cin": "L28920MH1907PLC000260",
+    "company_status": "Active",
+    "date_of_incorporation": "1907-08-26",
+    "registered_office": "Bombay House, 24 Homi Mody Street, Mumbai 400001",
+    "authorized_capital": 1000000000,
+    "paid_up_capital": 1219700000,
+    "listing_status": "Listed",
+    "last_agm_date": "2024-07-30",
+    "directors": [
+      {
+        "name": "N Chandrasekaran",
+        "din": "00380817",
+        "designation": "Chairman"
+      },
+      {
+        "name": "T V Narendran",
+        "din": "03083605",
+        "designation": "MD & CEO"
+      }
+    ],
+    "source": "SYNTHETIC"
+  },
+  "file_hash": "39f03bea613ddb4997a6281355386bf7"
+}

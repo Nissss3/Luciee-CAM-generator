@@ -1,0 +1,19 @@
+{
+  "source_type": "cibil",
+  "company_id": "COMP_001",
+  "ingested_at": "20260319_185229",
+  "data": {
+    "company": "Tata Steel Limited",
+    "cibil_score": 716,
+    "score_band": "Good",
+    "total_accounts": 9,
+    "active_accounts": 5,
+    "overdue_accounts": 1,
+    "dpd_last_12_months": 2,
+    "enquiries_last_6_months": 4,
+    "total_outstanding": 74933422,
+    "report_date": "2026-03-19",
+    "source": "SYNTHETIC"
+  },
+  "file_hash": "e854388ddf8a657b5433d0b18ee7780d"
+}

@@ -1,0 +1,28 @@
+{
+  "source_type": "cibil",
+  "company_id": "COMP_001",
+  "ingested_at": "20260321_191724",
+  "data": {
+    "company": "Tata Capital Limited",
+    "cin": "U65990MH1991PLC060670",
+    "cibil_score": 785,
+    "score_band": "Excellent",
+    "report_date": "2025-03-01",
+    "total_accounts": 18,
+    "active_accounts": 12,
+    "overdue_accounts": 0,
+    "dpd_last_12_months": 0,
+    "enquiries_last_6_months": 2,
+    "total_outstanding": 1250000000000,
+    "credit_history_years": 33,
+    "highest_credit_limit": 500000000000,
+    "on_time_payment_pct": 99.8,
+    "secured_accounts": 8,
+    "unsecured_accounts": 4,
+    "npa_flag": false,
+    "wilful_defaulter_flag": false,
+    "suit_filed_flag": false,
+    "source": "USER PROVIDED"
+  },
+  "file_hash": "85350c50aa58f09e48a8bd8efafc2e2c"
+}

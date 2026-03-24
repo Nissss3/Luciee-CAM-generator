@@ -1,0 +1,513 @@
+{
+  "source_type": "bank_statements",
+  "company_id": "COMP_001",
+  "ingested_at": "20260321_191724",
+  "row_count": 56,
+  "data": [
+    {
+      "date": "2024-01-05",
+      "description": "NEFT Receipt - Loan Repayment - MSME Borrower Batch 1",
+      "debit": 0,
+      "credit": 485000000,
+      "balance": 2100000000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-01-09",
+      "description": "Salary Payment - January 2024",
+      "debit": 142000000,
+      "credit": 0,
+      "balance": 1958000000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-01-12",
+      "description": "Loan Disbursement - Home Loans Batch",
+      "debit": 620000000,
+      "credit": 0,
+      "balance": 1338000000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-01-18",
+      "description": "GST Payment - Q3 FY24",
+      "debit": 38500000,
+      "credit": 0,
+      "balance": 1299500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-01-22",
+      "description": "NEFT Receipt - Customer EMI Collections",
+      "debit": 0,
+      "credit": 712000000,
+      "balance": 2011500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-01-28",
+      "description": "Loan EMI - NCD Coupon Payment",
+      "debit": 95000000,
+      "credit": 0,
+      "balance": 1916500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-02-03",
+      "description": "NEFT Receipt - Loan Repayment - Retail Batch",
+      "debit": 0,
+      "credit": 538000000,
+      "balance": 2454500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-02-07",
+      "description": "Raw Material / Ops Payment - IT Infrastructure",
+      "debit": 22000000,
+      "credit": 0,
+      "balance": 2432500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-02-14",
+      "description": "Salary Payment - February 2024",
+      "debit": 142000000,
+      "credit": 0,
+      "balance": 2290500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-02-19",
+      "description": "Loan Disbursement - Auto Loans Batch",
+      "debit": 475000000,
+      "credit": 0,
+      "balance": 1815500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-02-23",
+      "description": "Interest Income - Treasury Investments",
+      "debit": 0,
+      "credit": 67000000,
+      "balance": 1882500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-02-27",
+      "description": "Utility Payment - Office Rentals Pan India",
+      "debit": 18500000,
+      "credit": 0,
+      "balance": 1864000000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-03-04",
+      "description": "NEFT Receipt - Loan Repayment - SME Batch",
+      "debit": 0,
+      "credit": 892000000,
+      "balance": 2756000000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-03-08",
+      "description": "Salary Payment - March 2024",
+      "debit": 142000000,
+      "credit": 0,
+      "balance": 2614000000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-03-15",
+      "description": "Loan Disbursement - Business Loans Batch",
+      "debit": 780000000,
+      "credit": 0,
+      "balance": 1834000000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-03-21",
+      "description": "GST Payment - Q4 FY24",
+      "debit": 41200000,
+      "credit": 0,
+      "balance": 1792800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-03-28",
+      "description": "Loan EMI - Term Loan Repayment to Banks",
+      "debit": 250000000,
+      "credit": 0,
+      "balance": 1542800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-03-31",
+      "description": "Interest Income - FD and Liquid Funds",
+      "debit": 0,
+      "credit": 84000000,
+      "balance": 1626800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-04-05",
+      "description": "NEFT Receipt - Loan Repayment - Q1 Collections",
+      "debit": 0,
+      "credit": 645000000,
+      "balance": 2271800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-04-10",
+      "description": "Salary Payment - April 2024",
+      "debit": 148000000,
+      "credit": 0,
+      "balance": 2123800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-04-16",
+      "description": "Loan Disbursement - Mortgage Loans",
+      "debit": 510000000,
+      "credit": 0,
+      "balance": 1613800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-04-24",
+      "description": "Miscellaneous - Legal & Professional Fees",
+      "debit": 12000000,
+      "credit": 0,
+      "balance": 1601800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-04-29",
+      "description": "Export Receipt - Overseas Bond Proceeds",
+      "debit": 0,
+      "credit": 1200000000,
+      "balance": 2801800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-05-06",
+      "description": "NEFT Receipt - EMI Collections May",
+      "debit": 0,
+      "credit": 598000000,
+      "balance": 3399800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-05-13",
+      "description": "Salary Payment - May 2024",
+      "debit": 148000000,
+      "credit": 0,
+      "balance": 3251800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-05-20",
+      "description": "Loan Disbursement - Personal Loans Batch",
+      "debit": 420000000,
+      "credit": 0,
+      "balance": 2831800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-05-27",
+      "description": "Loan EMI - NCD Coupon Payment",
+      "debit": 97500000,
+      "credit": 0,
+      "balance": 2734300000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-06-04",
+      "description": "NEFT Receipt - Loan Repayment - Q1 End",
+      "debit": 0,
+      "credit": 724000000,
+      "balance": 3458300000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-06-11",
+      "description": "Salary Payment - June 2024",
+      "debit": 148000000,
+      "credit": 0,
+      "balance": 3310300000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-06-18",
+      "description": "GST Payment - Q1 FY25",
+      "debit": 39800000,
+      "credit": 0,
+      "balance": 3270500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-06-25",
+      "description": "Loan Disbursement - SME Working Capital",
+      "debit": 680000000,
+      "credit": 0,
+      "balance": 2590500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-07-05",
+      "description": "NEFT Receipt - EMI Collections July",
+      "debit": 0,
+      "credit": 811000000,
+      "balance": 3401500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-07-12",
+      "description": "Salary Payment - July 2024",
+      "debit": 151000000,
+      "credit": 0,
+      "balance": 3250500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-07-19",
+      "description": "Loan Disbursement - Home Loans Batch 2",
+      "debit": 550000000,
+      "credit": 0,
+      "balance": 2700500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-07-26",
+      "description": "Interest Income - Treasury",
+      "debit": 0,
+      "credit": 71000000,
+      "balance": 2771500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-08-02",
+      "description": "NEFT Receipt - Loan Repayment Collections",
+      "debit": 0,
+      "credit": 763000000,
+      "balance": 3534500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-08-09",
+      "description": "Salary Payment - August 2024",
+      "debit": 151000000,
+      "credit": 0,
+      "balance": 3383500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-08-16",
+      "description": "Loan Disbursement - Auto & Personal",
+      "debit": 495000000,
+      "credit": 0,
+      "balance": 2888500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-08-23",
+      "description": "Utility Payment - Data Centre & Cloud",
+      "debit": 24000000,
+      "credit": 0,
+      "balance": 2864500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-09-04",
+      "description": "NEFT Receipt - EMI Collections Sep",
+      "debit": 0,
+      "credit": 834000000,
+      "balance": 3698500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-09-11",
+      "description": "Salary Payment - September 2024",
+      "debit": 151000000,
+      "credit": 0,
+      "balance": 3547500000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-09-18",
+      "description": "GST Payment - Q2 FY25",
+      "debit": 42100000,
+      "credit": 0,
+      "balance": 3505400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-09-25",
+      "description": "Loan Disbursement - Business & SME",
+      "debit": 710000000,
+      "credit": 0,
+      "balance": 2795400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-10-04",
+      "description": "NEFT Receipt - Q2 Final Collections",
+      "debit": 0,
+      "credit": 925000000,
+      "balance": 3720400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-10-11",
+      "description": "Salary Payment - October 2024",
+      "debit": 155000000,
+      "credit": 0,
+      "balance": 3565400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-10-18",
+      "description": "Loan Disbursement - Festive Season Loans",
+      "debit": 850000000,
+      "credit": 0,
+      "balance": 2715400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-10-25",
+      "description": "Loan EMI - Term Loan Repayment",
+      "debit": 280000000,
+      "credit": 0,
+      "balance": 2435400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-11-04",
+      "description": "NEFT Receipt - EMI Collections Nov",
+      "debit": 0,
+      "credit": 878000000,
+      "balance": 3313400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-11-11",
+      "description": "Salary Payment - November 2024",
+      "debit": 155000000,
+      "credit": 0,
+      "balance": 3158400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-11-19",
+      "description": "Loan Disbursement - Mortgage & Home",
+      "debit": 620000000,
+      "credit": 0,
+      "balance": 2538400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-11-27",
+      "description": "Interest Income - Q3 Treasury",
+      "debit": 0,
+      "credit": 89000000,
+      "balance": 2627400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-12-04",
+      "description": "NEFT Receipt - December Collections",
+      "debit": 0,
+      "credit": 942000000,
+      "balance": 3569400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-12-11",
+      "description": "Salary Payment - December 2024",
+      "debit": 155000000,
+      "credit": 0,
+      "balance": 3414400000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-12-18",
+      "description": "GST Payment - Q3 FY25",
+      "debit": 44600000,
+      "credit": 0,
+      "balance": 3369800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-12-24",
+      "description": "Loan Disbursement - Year End Push",
+      "debit": 780000000,
+      "credit": 0,
+      "balance": 2589800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    },
+    {
+      "date": "2024-12-31",
+      "description": "Interest Income - Year End Accrual",
+      "debit": 0,
+      "credit": 112000000,
+      "balance": 2701800000,
+      "company": "Tata Capital Limited",
+      "source": "USER PROVIDED"
+    }
+  ],
+  "file_hash": "e241d25a95509d65458f698c53dea237"
+}

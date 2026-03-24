@@ -1,0 +1,19 @@
+{
+  "source_type": "cibil",
+  "company_id": "2344564222",
+  "ingested_at": "20260312_005218",
+  "data": {
+    "company": "abc",
+    "cibil_score": 747,
+    "score_band": "Good",
+    "total_accounts": 10,
+    "active_accounts": 2,
+    "overdue_accounts": 1,
+    "dpd_last_12_months": 0,
+    "enquiries_last_6_months": 2,
+    "total_outstanding": 31329007,
+    "report_date": "2026-03-12",
+    "source": "SYNTHETIC"
+  },
+  "file_hash": "59419528e7d9b16fbb922621bb0f7c6a"
+}

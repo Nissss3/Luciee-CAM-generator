@@ -1,0 +1,53 @@
+{
+  "source_type": "gst",
+  "company_id": "COMP_001",
+  "ingested_at": "20260312_104905",
+  "row_count": 4,
+  "data": [
+    {
+      "quarter": "Q1-2024",
+      "company": "Thakur Trusts",
+      "total_turnover": 1367110443,
+      "taxable_supply": 1257741607,
+      "gst_collected": 226393489,
+      "itc_claimed": 160213854,
+      "net_gst_paid": 66179636,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q2-2024",
+      "company": "Thakur Trusts",
+      "total_turnover": 1114309869,
+      "taxable_supply": 1025165079,
+      "gst_collected": 184529714,
+      "itc_claimed": 143522294,
+      "net_gst_paid": 41007420,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q3-2024",
+      "company": "Thakur Trusts",
+      "total_turnover": 1261623600,
+      "taxable_supply": 1160693712,
+      "gst_collected": 208924868,
+      "itc_claimed": 149607848,
+      "net_gst_paid": 59317020,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q4-2024",
+      "company": "Thakur Trusts",
+      "total_turnover": 1031213284,
+      "taxable_supply": 948716221,
+      "gst_collected": 170768920,
+      "itc_claimed": 143197197,
+      "net_gst_paid": 27571723,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "e655a7510040c3403d429ff944ced0b3"
+}

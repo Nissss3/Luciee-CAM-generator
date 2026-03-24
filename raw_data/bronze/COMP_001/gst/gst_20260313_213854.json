@@ -1,0 +1,53 @@
+{
+  "source_type": "gst",
+  "company_id": "COMP_001",
+  "ingested_at": "20260313_213854",
+  "row_count": 4,
+  "data": [
+    {
+      "quarter": "Q1-2024",
+      "company": "Thakur",
+      "total_turnover": 1385402479,
+      "taxable_supply": 1274570281,
+      "gst_collected": 229422651,
+      "itc_claimed": 166374957,
+      "net_gst_paid": 63047694,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q2-2024",
+      "company": "Thakur",
+      "total_turnover": 1429155781,
+      "taxable_supply": 1314823319,
+      "gst_collected": 236668197,
+      "itc_claimed": 198923039,
+      "net_gst_paid": 37745159,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q3-2024",
+      "company": "Thakur",
+      "total_turnover": 1223082801,
+      "taxable_supply": 1125236177,
+      "gst_collected": 202542512,
+      "itc_claimed": 170799096,
+      "net_gst_paid": 31743416,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    },
+    {
+      "quarter": "Q4-2024",
+      "company": "Thakur",
+      "total_turnover": 1023549696,
+      "taxable_supply": 941665721,
+      "gst_collected": 169499830,
+      "itc_claimed": 120611625,
+      "net_gst_paid": 48888205,
+      "filing_status": "Filed",
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "b640a2f5da94de0e75975c1cde3eb1a9"
+}

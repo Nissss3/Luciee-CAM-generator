@@ -1,0 +1,2232 @@
+{
+  "source_type": "bank_statements",
+  "company_id": "COMP_001",
+  "ingested_at": "20260312_104905",
+  "row_count": 247,
+  "data": [
+    {
+      "date": "2024-01-04",
+      "description": "Miscellaneous",
+      "debit": 2593278,
+      "credit": 0,
+      "balance": 89940906,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9344860,
+      "balance": 95036359,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-08",
+      "description": "GST Payment",
+      "debit": 4442308,
+      "credit": 0,
+      "balance": 92534183,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-09",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1233851,
+      "balance": 65282371,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-10",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5733429,
+      "balance": 110637627,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-11",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 939304,
+      "balance": 66221675,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-11",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8267775,
+      "balance": 95583291,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8162121,
+      "balance": 74383795,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-14",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9810748,
+      "balance": 91095316,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-15",
+      "description": "Utility Payment",
+      "debit": 4249407,
+      "credit": 0,
+      "balance": 85691499,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-16",
+      "description": "Raw Material Payment",
+      "debit": 1643512,
+      "credit": 0,
+      "balance": 96993735,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-20",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 1502307,
+      "balance": 51502307,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-22",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7251910,
+      "balance": 104904199,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 658554,
+      "balance": 97652289,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1393201,
+      "balance": 96976491,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-23",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 8870180,
+      "balance": 126136459,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-23",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3600888,
+      "balance": 98637247,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-24",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 6900773,
+      "balance": 81284568,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2993333,
+      "balance": 127899660,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7907621,
+      "balance": 64048520,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-26",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 6628652,
+      "balance": 117266279,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-27",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 4638592,
+      "balance": 56140899,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-27",
+      "description": "Utility Payment",
+      "debit": 1230131,
+      "credit": 0,
+      "balance": 124906328,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-28",
+      "description": "Raw Material Payment",
+      "debit": 3779800,
+      "credit": 0,
+      "balance": 87315516,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 535750,
+      "balance": 141848226,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-02",
+      "description": "Miscellaneous",
+      "debit": 4418632,
+      "credit": 0,
+      "balance": 141312476,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-03",
+      "description": "Salary Payment",
+      "debit": 4556450,
+      "credit": 0,
+      "balance": 147241392,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4759980,
+      "balance": 156445071,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-04",
+      "description": "Salary Payment",
+      "debit": 3690827,
+      "credit": 0,
+      "balance": 135322675,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9966992,
+      "balance": 136269013,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-06",
+      "description": "Salary Payment",
+      "debit": 1213665,
+      "credit": 0,
+      "balance": 134109011,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-06",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1519046,
+      "balance": 143367272,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-06",
+      "description": "Salary Payment",
+      "debit": 4647229,
+      "credit": 0,
+      "balance": 151797842,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6166852,
+      "balance": 140275863,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-10",
+      "description": "Salary Payment",
+      "debit": 4696845,
+      "credit": 0,
+      "balance": 142544547,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-10",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 3126469,
+      "balance": 128673228,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-14",
+      "description": "GST Payment",
+      "debit": 3917279,
+      "credit": 0,
+      "balance": 127044343,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-14",
+      "description": "Raw Material Payment",
+      "debit": 2476946,
+      "credit": 0,
+      "balance": 147274713,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-15",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 9689159,
+      "balance": 155768951,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-16",
+      "description": "Utility Payment",
+      "debit": 4353770,
+      "credit": 0,
+      "balance": 139013502,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-17",
+      "description": "Loan EMI",
+      "debit": 876741,
+      "credit": 0,
+      "balance": 127022920,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-20",
+      "description": "Raw Material Payment",
+      "debit": 1923675,
+      "credit": 0,
+      "balance": 140620872,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-20",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7215470,
+      "balance": 147836343,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-20",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7038761,
+      "balance": 130961622,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-20",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1915316,
+      "balance": 149751659,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-21",
+      "description": "GST Payment",
+      "debit": 2371207,
+      "credit": 0,
+      "balance": 126302021,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-22",
+      "description": "Salary Payment",
+      "debit": 1497583,
+      "credit": 0,
+      "balance": 125546759,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9810779,
+      "balance": 146079792,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-25",
+      "description": "Miscellaneous",
+      "debit": 3100059,
+      "credit": 0,
+      "balance": 123922861,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-26",
+      "description": "Salary Payment",
+      "debit": 1543604,
+      "credit": 0,
+      "balance": 145731109,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-27",
+      "description": "Salary Payment",
+      "debit": 4083860,
+      "credit": 0,
+      "balance": 151685091,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-03",
+      "description": "Salary Payment",
+      "debit": 1156938,
+      "credit": 0,
+      "balance": 144961377,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-04",
+      "description": "Loan EMI",
+      "debit": 2484506,
+      "credit": 0,
+      "balance": 149862854,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-04",
+      "description": "Miscellaneous",
+      "debit": 1886888,
+      "credit": 0,
+      "balance": 150371710,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9794558,
+      "balance": 150070421,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-06",
+      "description": "Raw Material Payment",
+      "debit": 2723304,
+      "credit": 0,
+      "balance": 151701405,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-10",
+      "description": "Salary Payment",
+      "debit": 2122924,
+      "credit": 0,
+      "balance": 148248786,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-12",
+      "description": "Utility Payment",
+      "debit": 2096074,
+      "credit": 0,
+      "balance": 152258598,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-13",
+      "description": "Raw Material Payment",
+      "debit": 3989645,
+      "credit": 0,
+      "balance": 152347360,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-15",
+      "description": "Loan EMI",
+      "debit": 1109496,
+      "credit": 0,
+      "balance": 149452839,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 699481,
+      "balance": 150562336,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2720035,
+      "balance": 154421440,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-20",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 9017628,
+      "balance": 161218640,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-22",
+      "description": "Loan EMI",
+      "debit": 3952107,
+      "credit": 0,
+      "balance": 146118314,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3952226,
+      "balance": 152201012,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4971870,
+      "balance": 154424709,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9393295,
+      "balance": 154354672,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-27",
+      "description": "Raw Material Payment",
+      "debit": 4881635,
+      "credit": 0,
+      "balance": 156337005,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-05",
+      "description": "Salary Payment",
+      "debit": 3558313,
+      "credit": 0,
+      "balance": 143568719,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-05",
+      "description": "Loan EMI",
+      "debit": 2108156,
+      "credit": 0,
+      "balance": 141464179,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-11",
+      "description": "Loan EMI",
+      "debit": 866310,
+      "credit": 0,
+      "balance": 140384319,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-11",
+      "description": "Salary Payment",
+      "debit": 310840,
+      "credit": 0,
+      "balance": 150073530,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8933744,
+      "balance": 147127032,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-14",
+      "description": "Raw Material Payment",
+      "debit": 522242,
+      "credit": 0,
+      "balance": 141250629,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-14",
+      "description": "Raw Material Payment",
+      "debit": 2555301,
+      "credit": 0,
+      "balance": 150384369,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-17",
+      "description": "GST Payment",
+      "debit": 2488601,
+      "credit": 0,
+      "balance": 143572335,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5457252,
+      "balance": 145841571,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-22",
+      "description": "Utility Payment",
+      "debit": 1981539,
+      "credit": 0,
+      "balance": 138193288,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-23",
+      "description": "Salary Payment",
+      "debit": 2040286,
+      "credit": 0,
+      "balance": 148033244,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-24",
+      "description": "Salary Payment",
+      "debit": 1972307,
+      "credit": 0,
+      "balance": 146060937,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-25",
+      "description": "Salary Payment",
+      "debit": 1481770,
+      "credit": 0,
+      "balance": 152939670,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-26",
+      "description": "Raw Material Payment",
+      "debit": 678227,
+      "credit": 0,
+      "balance": 141772871,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-27",
+      "description": "Salary Payment",
+      "debit": 1289352,
+      "credit": 0,
+      "balance": 140174828,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-27",
+      "description": "Salary Payment",
+      "debit": 1117621,
+      "credit": 0,
+      "balance": 142451098,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6751084,
+      "balance": 170354699,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1975690,
+      "balance": 154766046,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-04",
+      "description": "Raw Material Payment",
+      "debit": 1148670,
+      "credit": 0,
+      "balance": 152660815,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-06",
+      "description": "GST Payment",
+      "debit": 4548447,
+      "credit": 0,
+      "balance": 156093732,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8687459,
+      "balance": 158790874,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-11",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6844292,
+      "balance": 163603616,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-16",
+      "description": "Raw Material Payment",
+      "debit": 676165,
+      "credit": 0,
+      "balance": 153809485,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1851305,
+      "balance": 160642180,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-17",
+      "description": "Salary Payment",
+      "debit": 280397,
+      "credit": 0,
+      "balance": 154485649,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5554956,
+      "balance": 151396527,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-20",
+      "description": "Loan EMI",
+      "debit": 2227679,
+      "credit": 0,
+      "balance": 152790356,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-21",
+      "description": "Raw Material Payment",
+      "debit": 1075697,
+      "credit": 0,
+      "balance": 155018035,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-24",
+      "description": "Loan EMI",
+      "debit": 2689665,
+      "credit": 0,
+      "balance": 167665034,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4098508,
+      "balance": 156759324,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-27",
+      "description": "Miscellaneous",
+      "debit": 1293111,
+      "credit": 0,
+      "balance": 150103416,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-02",
+      "description": "Raw Material Payment",
+      "debit": 3241097,
+      "credit": 0,
+      "balance": 183018559,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-03",
+      "description": "Raw Material Payment",
+      "debit": 1450016,
+      "credit": 0,
+      "balance": 159483299,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-03",
+      "description": "Salary Payment",
+      "debit": 1245215,
+      "credit": 0,
+      "balance": 183518677,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-04",
+      "description": "Salary Payment",
+      "debit": 2180008,
+      "credit": 0,
+      "balance": 160933314,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3243317,
+      "balance": 171366559,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6911923,
+      "balance": 189930482,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-08",
+      "description": "Raw Material Payment",
+      "debit": 2332035,
+      "credit": 0,
+      "balance": 154971558,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7843122,
+      "balance": 171968793,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-10",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 9154113,
+      "balance": 164125671,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-10",
+      "description": "Raw Material Payment",
+      "debit": 4551711,
+      "credit": 0,
+      "balance": 163113323,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-12",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 2100843,
+      "balance": 188851131,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-16",
+      "description": "Raw Material Payment",
+      "debit": 3700256,
+      "credit": 0,
+      "balance": 168123242,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7194415,
+      "balance": 178560974,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-17",
+      "description": "Salary Payment",
+      "debit": 1242307,
+      "credit": 0,
+      "balance": 158240992,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-18",
+      "description": "Miscellaneous",
+      "debit": 2591474,
+      "credit": 0,
+      "balance": 186259657,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2444986,
+      "balance": 184763892,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-19",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 6346615,
+      "balance": 189865292,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-21",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 3757932,
+      "balance": 182318906,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3045729,
+      "balance": 157303593,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3235129,
+      "balance": 175203922,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-23",
+      "description": "Raw Material Payment",
+      "debit": 3115004,
+      "credit": 0,
+      "balance": 186750288,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-24",
+      "description": "Raw Material Payment",
+      "debit": 3983129,
+      "credit": 0,
+      "balance": 154257863,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-26",
+      "description": "Raw Material Payment",
+      "debit": 3380424,
+      "credit": 0,
+      "balance": 171823497,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-03",
+      "description": "Raw Material Payment",
+      "debit": 3008101,
+      "credit": 0,
+      "balance": 174249308,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-04",
+      "description": "Raw Material Payment",
+      "debit": 4719694,
+      "credit": 0,
+      "balance": 179508335,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-04",
+      "description": "Salary Payment",
+      "debit": 4523949,
+      "credit": 0,
+      "balance": 169862162,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-06",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5373271,
+      "balance": 177812783,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-08",
+      "description": "Miscellaneous",
+      "debit": 3197762,
+      "credit": 0,
+      "balance": 157204662,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-09",
+      "description": "Loan EMI",
+      "debit": 3823441,
+      "credit": 0,
+      "balance": 165506992,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-10",
+      "description": "Raw Material Payment",
+      "debit": 2803244,
+      "credit": 0,
+      "balance": 160402425,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-10",
+      "description": "Loan EMI",
+      "debit": 1446326,
+      "credit": 0,
+      "balance": 184228029,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-11",
+      "description": "Raw Material Payment",
+      "debit": 3713496,
+      "credit": 0,
+      "balance": 185674355,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-12",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 3540976,
+      "balance": 198960904,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-12",
+      "description": "Salary Payment",
+      "debit": 2543594,
+      "credit": 0,
+      "balance": 168948112,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-16",
+      "description": "Salary Payment",
+      "debit": 4232738,
+      "credit": 0,
+      "balance": 172680279,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-17",
+      "description": "Raw Material Payment",
+      "debit": 2301323,
+      "credit": 0,
+      "balance": 163205669,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-18",
+      "description": "Raw Material Payment",
+      "debit": 4707610,
+      "credit": 0,
+      "balance": 152497052,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4858264,
+      "balance": 174720426,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-18",
+      "description": "Salary Payment",
+      "debit": 3228719,
+      "credit": 0,
+      "balance": 171491707,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8621677,
+      "balance": 177569789,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-19",
+      "description": "Loan EMI",
+      "debit": 240767,
+      "credit": 0,
+      "balance": 172439512,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-20",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 566869,
+      "balance": 195419928,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-20",
+      "description": "Raw Material Payment",
+      "debit": 1014253,
+      "credit": 0,
+      "balance": 189387851,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-21",
+      "description": "Loan EMI",
+      "debit": 2595319,
+      "credit": 0,
+      "balance": 176913017,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-21",
+      "description": "Miscellaneous",
+      "debit": 3426672,
+      "credit": 0,
+      "balance": 174386110,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4922577,
+      "balance": 194853059,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-23",
+      "description": "Raw Material Payment",
+      "debit": 675382,
+      "credit": 0,
+      "balance": 198285522,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-24",
+      "description": "Salary Payment",
+      "debit": 312380,
+      "credit": 0,
+      "balance": 177257409,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-24",
+      "description": "Salary Payment",
+      "debit": 4693870,
+      "credit": 0,
+      "balance": 193591653,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-26",
+      "description": "Raw Material Payment",
+      "debit": 4918875,
+      "credit": 0,
+      "balance": 169330433,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-27",
+      "description": "Raw Material Payment",
+      "debit": 3189548,
+      "credit": 0,
+      "balance": 190402104,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9526990,
+      "balance": 166507468,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-09",
+      "description": "GST Payment",
+      "debit": 1676551,
+      "credit": 0,
+      "balance": 151750066,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-12",
+      "description": "Loan EMI",
+      "debit": 955340,
+      "credit": 0,
+      "balance": 146958181,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-14",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8112923,
+      "balance": 156980478,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-14",
+      "description": "Salary Payment",
+      "debit": 1863105,
+      "credit": 0,
+      "balance": 161109180,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-15",
+      "description": "Raw Material Payment",
+      "debit": 3629498,
+      "credit": 0,
+      "balance": 148867554,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1170995,
+      "balance": 152921060,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5910337,
+      "balance": 152868518,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-20",
+      "description": "Salary Payment",
+      "debit": 776092,
+      "credit": 0,
+      "balance": 153426617,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-20",
+      "description": "Raw Material Payment",
+      "debit": 1515371,
+      "credit": 0,
+      "balance": 151405690,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-21",
+      "description": "Raw Material Payment",
+      "debit": 3535184,
+      "credit": 0,
+      "balance": 162972284,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-22",
+      "description": "Salary Payment",
+      "debit": 1915803,
+      "credit": 0,
+      "balance": 150952715,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-22",
+      "description": "GST Payment",
+      "debit": 4413141,
+      "credit": 0,
+      "balance": 146992549,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-22",
+      "description": "Raw Material Payment",
+      "debit": 496345,
+      "credit": 0,
+      "balance": 154202709,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 920972,
+      "balance": 147913521,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-27",
+      "description": "Raw Material Payment",
+      "debit": 1788624,
+      "credit": 0,
+      "balance": 154699054,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-28",
+      "description": "Raw Material Payment",
+      "debit": 4621502,
+      "credit": 0,
+      "balance": 156487678,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9580568,
+      "balance": 170779261,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-03",
+      "description": "Salary Payment",
+      "debit": 2068631,
+      "credit": 0,
+      "balance": 160473367,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-07",
+      "description": "Raw Material Payment",
+      "debit": 1179750,
+      "credit": 0,
+      "balance": 175685558,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-07",
+      "description": "Utility Payment",
+      "debit": 1570278,
+      "credit": 0,
+      "balance": 158001646,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 725325,
+      "balance": 161198692,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-12",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9288455,
+      "balance": 190657349,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-12",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 1000921,
+      "balance": 176686479,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3556502,
+      "balance": 150507898,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-13",
+      "description": "Raw Material Payment",
+      "debit": 850247,
+      "credit": 0,
+      "balance": 150102468,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1923039,
+      "balance": 183392698,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1777434,
+      "balance": 156779440,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4783180,
+      "balance": 181469659,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-16",
+      "description": "Raw Material Payment",
+      "debit": 821284,
+      "credit": 0,
+      "balance": 176865308,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5168383,
+      "balance": 177686592,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-21",
+      "description": "Loan EMI",
+      "debit": 1099062,
+      "credit": 0,
+      "balance": 155680378,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-21",
+      "description": "Loan EMI",
+      "debit": 2999639,
+      "credit": 0,
+      "balance": 155002007,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-22",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 7853146,
+      "balance": 163533524,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-23",
+      "description": "Loan EMI",
+      "debit": 3151072,
+      "credit": 0,
+      "balance": 146951396,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-23",
+      "description": "Loan EMI",
+      "debit": 991527,
+      "credit": 0,
+      "balance": 162541998,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-24",
+      "description": "Raw Material Payment",
+      "debit": 2023804,
+      "credit": 0,
+      "balance": 181368894,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1738948,
+      "balance": 172518209,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-27",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9064026,
+      "balance": 159571924,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-02",
+      "description": "Salary Payment",
+      "debit": 2859961,
+      "credit": 0,
+      "balance": 180888533,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-03",
+      "description": "Utility Payment",
+      "debit": 2208960,
+      "credit": 0,
+      "balance": 201043922,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9897380,
+      "balance": 207963019,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-05",
+      "description": "Raw Material Payment",
+      "debit": 4138816,
+      "credit": 0,
+      "balance": 189871864,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-06",
+      "description": "Raw Material Payment",
+      "debit": 1188002,
+      "credit": 0,
+      "balance": 186687665,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4002057,
+      "balance": 187299644,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-08",
+      "description": "Loan EMI",
+      "debit": 477935,
+      "credit": 0,
+      "balance": 199560150,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-09",
+      "description": "Utility Payment",
+      "debit": 4304182,
+      "credit": 0,
+      "balance": 183748493,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8996657,
+      "balance": 200038085,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5052969,
+      "balance": 196331712,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-13",
+      "description": "Salary Payment",
+      "debit": 1085267,
+      "credit": 0,
+      "balance": 186214377,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-13",
+      "description": "Loan EMI",
+      "debit": 517535,
+      "credit": 0,
+      "balance": 203252881,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4591078,
+      "balance": 191278743,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-14",
+      "description": "Salary Payment",
+      "debit": 2430989,
+      "credit": 0,
+      "balance": 185840780,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-14",
+      "description": "Loan EMI",
+      "debit": 280256,
+      "credit": 0,
+      "balance": 187875667,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1348335,
+      "balance": 202392256,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-15",
+      "description": "GST Payment",
+      "debit": 2543193,
+      "credit": 0,
+      "balance": 183297587,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4210267,
+      "balance": 203770416,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-17",
+      "description": "Raw Material Payment",
+      "debit": 1715941,
+      "credit": 0,
+      "balance": 188155923,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-20",
+      "description": "Miscellaneous",
+      "debit": 2582750,
+      "credit": 0,
+      "balance": 191041427,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-21",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7796303,
+      "balance": 194010680,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-23",
+      "description": "Loan EMI",
+      "debit": 2604673,
+      "credit": 0,
+      "balance": 188052676,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7383236,
+      "balance": 188271769,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-26",
+      "description": "Miscellaneous",
+      "debit": 4326618,
+      "credit": 0,
+      "balance": 198065639,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-26",
+      "description": "Loan EMI",
+      "debit": 2707535,
+      "credit": 0,
+      "balance": 193624177,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-02",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7627970,
+      "balance": 207789100,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1032095,
+      "balance": 217064283,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8673663,
+      "balance": 233970469,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-06",
+      "description": "GST Payment",
+      "debit": 1390009,
+      "credit": 0,
+      "balance": 232580460,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-08",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 2792514,
+      "balance": 227330779,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8243088,
+      "balance": 216032188,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-09",
+      "description": "Utility Payment",
+      "debit": 2044903,
+      "credit": 0,
+      "balance": 204121809,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-12",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 8232523,
+      "balance": 225296806,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-12",
+      "description": "Loan EMI",
+      "debit": 1785026,
+      "credit": 0,
+      "balance": 206821724,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-13",
+      "description": "Raw Material Payment",
+      "debit": 1235791,
+      "credit": 0,
+      "balance": 206727228,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-18",
+      "description": "Salary Payment",
+      "debit": 2816456,
+      "credit": 0,
+      "balance": 204005268,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-18",
+      "description": "Salary Payment",
+      "debit": 3960680,
+      "credit": 0,
+      "balance": 200161129,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-20",
+      "description": "GST Payment",
+      "debit": 4159327,
+      "credit": 0,
+      "balance": 224538265,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2161445,
+      "balance": 206166713,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1879522,
+      "balance": 208606750,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-27",
+      "description": "Raw Material Payment",
+      "debit": 3882868,
+      "credit": 0,
+      "balance": 228697592,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-03",
+      "description": "Raw Material Payment",
+      "debit": 1907691,
+      "credit": 0,
+      "balance": 224323805,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 531296,
+      "balance": 250696856,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-04",
+      "description": "Salary Payment",
+      "debit": 843280,
+      "credit": 0,
+      "balance": 230785794,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8609350,
+      "balance": 253269609,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-05",
+      "description": "Raw Material Payment",
+      "debit": 1083801,
+      "credit": 0,
+      "balance": 242026151,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-05",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5446107,
+      "balance": 232776886,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-06",
+      "description": "Salary Payment",
+      "debit": 1756212,
+      "credit": 0,
+      "balance": 251513397,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6368541,
+      "balance": 243109953,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-11",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 3442148,
+      "balance": 227765953,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-13",
+      "description": "Raw Material Payment",
+      "debit": 4554299,
+      "credit": 0,
+      "balance": 226231496,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-15",
+      "description": "Raw Material Payment",
+      "debit": 1147812,
+      "credit": 0,
+      "balance": 231629074,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-16",
+      "description": "Raw Material Payment",
+      "debit": 920170,
+      "credit": 0,
+      "balance": 241105981,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-17",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5894659,
+      "balance": 244660259,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-18",
+      "description": "Salary Payment",
+      "debit": 2340381,
+      "credit": 0,
+      "balance": 238765600,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8975459,
+      "balance": 236741412,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4021501,
+      "balance": 254718357,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-23",
+      "description": "Utility Payment",
+      "debit": 1347836,
+      "credit": 0,
+      "balance": 250165561,
+      "company": "Thakur Trusts",
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "fc5bd27d25f2930a749e1206c3d8e914"
+}

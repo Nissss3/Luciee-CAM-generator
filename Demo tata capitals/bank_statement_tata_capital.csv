@@ -1,0 +1,57 @@
+date,description,debit,credit,balance,company,source
+2024-01-05,NEFT Receipt - Loan Repayment - MSME Borrower Batch 1,0,485000000,2100000000,Tata Capital Limited,USER PROVIDED
+2024-01-09,Salary Payment - January 2024,142000000,0,1958000000,Tata Capital Limited,USER PROVIDED
+2024-01-12,Loan Disbursement - Home Loans Batch,620000000,0,1338000000,Tata Capital Limited,USER PROVIDED
+2024-01-18,GST Payment - Q3 FY24,38500000,0,1299500000,Tata Capital Limited,USER PROVIDED
+2024-01-22,NEFT Receipt - Customer EMI Collections,0,712000000,2011500000,Tata Capital Limited,USER PROVIDED
+2024-01-28,Loan EMI - NCD Coupon Payment,95000000,0,1916500000,Tata Capital Limited,USER PROVIDED
+2024-02-03,NEFT Receipt - Loan Repayment - Retail Batch,0,538000000,2454500000,Tata Capital Limited,USER PROVIDED
+2024-02-07,Raw Material / Ops Payment - IT Infrastructure,22000000,0,2432500000,Tata Capital Limited,USER PROVIDED
+2024-02-14,Salary Payment - February 2024,142000000,0,2290500000,Tata Capital Limited,USER PROVIDED
+2024-02-19,Loan Disbursement - Auto Loans Batch,475000000,0,1815500000,Tata Capital Limited,USER PROVIDED
+2024-02-23,Interest Income - Treasury Investments,0,67000000,1882500000,Tata Capital Limited,USER PROVIDED
+2024-02-27,Utility Payment - Office Rentals Pan India,18500000,0,1864000000,Tata Capital Limited,USER PROVIDED
+2024-03-04,NEFT Receipt - Loan Repayment - SME Batch,0,892000000,2756000000,Tata Capital Limited,USER PROVIDED
+2024-03-08,Salary Payment - March 2024,142000000,0,2614000000,Tata Capital Limited,USER PROVIDED
+2024-03-15,Loan Disbursement - Business Loans Batch,780000000,0,1834000000,Tata Capital Limited,USER PROVIDED
+2024-03-21,GST Payment - Q4 FY24,41200000,0,1792800000,Tata Capital Limited,USER PROVIDED
+2024-03-28,Loan EMI - Term Loan Repayment to Banks,250000000,0,1542800000,Tata Capital Limited,USER PROVIDED
+2024-03-31,Interest Income - FD and Liquid Funds,0,84000000,1626800000,Tata Capital Limited,USER PROVIDED
+2024-04-05,NEFT Receipt - Loan Repayment - Q1 Collections,0,645000000,2271800000,Tata Capital Limited,USER PROVIDED
+2024-04-10,Salary Payment - April 2024,148000000,0,2123800000,Tata Capital Limited,USER PROVIDED
+2024-04-16,Loan Disbursement - Mortgage Loans,510000000,0,1613800000,Tata Capital Limited,USER PROVIDED
+2024-04-24,Miscellaneous - Legal & Professional Fees,12000000,0,1601800000,Tata Capital Limited,USER PROVIDED
+2024-04-29,Export Receipt - Overseas Bond Proceeds,0,1200000000,2801800000,Tata Capital Limited,USER PROVIDED
+2024-05-06,NEFT Receipt - EMI Collections May,0,598000000,3399800000,Tata Capital Limited,USER PROVIDED
+2024-05-13,Salary Payment - May 2024,148000000,0,3251800000,Tata Capital Limited,USER PROVIDED
+2024-05-20,Loan Disbursement - Personal Loans Batch,420000000,0,2831800000,Tata Capital Limited,USER PROVIDED
+2024-05-27,Loan EMI - NCD Coupon Payment,97500000,0,2734300000,Tata Capital Limited,USER PROVIDED
+2024-06-04,NEFT Receipt - Loan Repayment - Q1 End,0,724000000,3458300000,Tata Capital Limited,USER PROVIDED
+2024-06-11,Salary Payment - June 2024,148000000,0,3310300000,Tata Capital Limited,USER PROVIDED
+2024-06-18,GST Payment - Q1 FY25,39800000,0,3270500000,Tata Capital Limited,USER PROVIDED
+2024-06-25,Loan Disbursement - SME Working Capital,680000000,0,2590500000,Tata Capital Limited,USER PROVIDED
+2024-07-05,NEFT Receipt - EMI Collections July,0,811000000,3401500000,Tata Capital Limited,USER PROVIDED
+2024-07-12,Salary Payment - July 2024,151000000,0,3250500000,Tata Capital Limited,USER PROVIDED
+2024-07-19,Loan Disbursement - Home Loans Batch 2,550000000,0,2700500000,Tata Capital Limited,USER PROVIDED
+2024-07-26,Interest Income - Treasury,0,71000000,2771500000,Tata Capital Limited,USER PROVIDED
+2024-08-02,NEFT Receipt - Loan Repayment Collections,0,763000000,3534500000,Tata Capital Limited,USER PROVIDED
+2024-08-09,Salary Payment - August 2024,151000000,0,3383500000,Tata Capital Limited,USER PROVIDED
+2024-08-16,Loan Disbursement - Auto & Personal,495000000,0,2888500000,Tata Capital Limited,USER PROVIDED
+2024-08-23,Utility Payment - Data Centre & Cloud,24000000,0,2864500000,Tata Capital Limited,USER PROVIDED
+2024-09-04,NEFT Receipt - EMI Collections Sep,0,834000000,3698500000,Tata Capital Limited,USER PROVIDED
+2024-09-11,Salary Payment - September 2024,151000000,0,3547500000,Tata Capital Limited,USER PROVIDED
+2024-09-18,GST Payment - Q2 FY25,42100000,0,3505400000,Tata Capital Limited,USER PROVIDED
+2024-09-25,Loan Disbursement - Business & SME,710000000,0,2795400000,Tata Capital Limited,USER PROVIDED
+2024-10-04,NEFT Receipt - Q2 Final Collections,0,925000000,3720400000,Tata Capital Limited,USER PROVIDED
+2024-10-11,Salary Payment - October 2024,155000000,0,3565400000,Tata Capital Limited,USER PROVIDED
+2024-10-18,Loan Disbursement - Festive Season Loans,850000000,0,2715400000,Tata Capital Limited,USER PROVIDED
+2024-10-25,Loan EMI - Term Loan Repayment,280000000,0,2435400000,Tata Capital Limited,USER PROVIDED
+2024-11-04,NEFT Receipt - EMI Collections Nov,0,878000000,3313400000,Tata Capital Limited,USER PROVIDED
+2024-11-11,Salary Payment - November 2024,155000000,0,3158400000,Tata Capital Limited,USER PROVIDED
+2024-11-19,Loan Disbursement - Mortgage & Home,620000000,0,2538400000,Tata Capital Limited,USER PROVIDED
+2024-11-27,Interest Income - Q3 Treasury,0,89000000,2627400000,Tata Capital Limited,USER PROVIDED
+2024-12-04,NEFT Receipt - December Collections,0,942000000,3569400000,Tata Capital Limited,USER PROVIDED
+2024-12-11,Salary Payment - December 2024,155000000,0,3414400000,Tata Capital Limited,USER PROVIDED
+2024-12-18,GST Payment - Q3 FY25,44600000,0,3369800000,Tata Capital Limited,USER PROVIDED
+2024-12-24,Loan Disbursement - Year End Push,780000000,0,2589800000,Tata Capital Limited,USER PROVIDED
+2024-12-31,Interest Income - Year End Accrual,0,112000000,2701800000,Tata Capital Limited,USER PROVIDED

@@ -1,0 +1,2 @@
+company,cin,cibil_score,score_band,report_date,total_accounts,active_accounts,overdue_accounts,dpd_last_12_months,enquiries_last_6_months,total_outstanding,credit_history_years,highest_credit_limit,on_time_payment_pct,secured_accounts,unsecured_accounts,npa_flag,wilful_defaulter_flag,suit_filed_flag,source
+Tata Capital Limited,U65990MH1991PLC060670,785,Excellent,2025-03-01,18,12,0,0,2,1250000000000,33,500000000000,99.8,8,4,False,False,False,USER PROVIDED

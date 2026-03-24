@@ -1,0 +1,19 @@
+{
+  "source_type": "cibil",
+  "company_id": "COMP_001",
+  "ingested_at": "20260313_213854",
+  "data": {
+    "company": "Thakur",
+    "cibil_score": 706,
+    "score_band": "Good",
+    "total_accounts": 4,
+    "active_accounts": 1,
+    "overdue_accounts": 1,
+    "dpd_last_12_months": 1,
+    "enquiries_last_6_months": 2,
+    "total_outstanding": 70470647,
+    "report_date": "2026-03-13",
+    "source": "SYNTHETIC"
+  },
+  "file_hash": "521816ac921bfbf6632c44290d62d524"
+}

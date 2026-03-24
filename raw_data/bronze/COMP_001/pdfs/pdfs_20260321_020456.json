@@ -1,0 +1,16 @@
+{
+  "source_type": "pdfs",
+  "company_id": "COMP_001",
+  "ingested_at": "20260321_020456",
+  "data": {
+    "documents": [
+      {
+        "text": "",
+        "tables": [],
+        "pages": 0,
+        "source": "USER PROVIDED"
+      }
+    ]
+  },
+  "file_hash": "88221f7fa06ff2017748ffa7a855a0b9"
+}

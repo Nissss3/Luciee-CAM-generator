@@ -1,0 +1,64 @@
+{
+  "source_type": "cma",
+  "company_id": "COMP_001",
+  "ingested_at": "20260313_213854",
+  "row_count": 5,
+  "data": [
+    {
+      "period": "FY2022 Actual",
+      "company": "Thakur",
+      "net_sales": 5000000000,
+      "ebitda": 1350000000,
+      "interest": 200000000,
+      "pat": 700000000,
+      "working_capital_limit": 750000000,
+      "utilization_pct": 76.7,
+      "source": "SYNTHETIC"
+    },
+    {
+      "period": "FY2023 Actual",
+      "company": "Thakur",
+      "net_sales": 5400000000,
+      "ebitda": 1458000000,
+      "interest": 216000000,
+      "pat": 756000000,
+      "working_capital_limit": 810000000,
+      "utilization_pct": 80.6,
+      "source": "SYNTHETIC"
+    },
+    {
+      "period": "FY2024 Actual",
+      "company": "Thakur",
+      "net_sales": 5832000000,
+      "ebitda": 1574640000,
+      "interest": 233280000,
+      "pat": 816480000,
+      "working_capital_limit": 874800000,
+      "utilization_pct": 80.9,
+      "source": "SYNTHETIC"
+    },
+    {
+      "period": "FY2025 Projected",
+      "company": "Thakur",
+      "net_sales": 6298560000,
+      "ebitda": 1700611200,
+      "interest": 251942400,
+      "pat": 881798400,
+      "working_capital_limit": 944784000,
+      "utilization_pct": 65.2,
+      "source": "SYNTHETIC"
+    },
+    {
+      "period": "FY2026 Projected",
+      "company": "Thakur",
+      "net_sales": 6802444800,
+      "ebitda": 1836660096,
+      "interest": 272097792,
+      "pat": 952342272,
+      "working_capital_limit": 1020366720,
+      "utilization_pct": 84.2,
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "ed422a16ccf2c6ad665ea8ed22e33ede"
+}

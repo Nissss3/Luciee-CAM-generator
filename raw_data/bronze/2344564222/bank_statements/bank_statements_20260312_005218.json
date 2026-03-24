@@ -1,0 +1,2565 @@
+{
+  "source_type": "bank_statements",
+  "company_id": "2344564222",
+  "ingested_at": "20260312_005218",
+  "row_count": 284,
+  "data": [
+    {
+      "date": "2024-01-02",
+      "description": "Salary Payment",
+      "debit": 745358,
+      "credit": 0,
+      "balance": 94523458,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5960985,
+      "balance": 100511041,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8037375,
+      "balance": 120581922,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-04",
+      "description": "Salary Payment",
+      "debit": 2071299,
+      "credit": 0,
+      "balance": 106226761,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-05",
+      "description": "Miscellaneous",
+      "debit": 2849858,
+      "credit": 0,
+      "balance": 118187380,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-05",
+      "description": "Miscellaneous",
+      "debit": 2351760,
+      "credit": 0,
+      "balance": 121037238,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-06",
+      "description": "Raw Material Payment",
+      "debit": 2368489,
+      "credit": 0,
+      "balance": 71762717,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-07",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5969298,
+      "balance": 123388998,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-10",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3279959,
+      "balance": 75042676,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-11",
+      "description": "Raw Material Payment",
+      "debit": 1289681,
+      "credit": 0,
+      "balance": 116897700,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7787019,
+      "balance": 108298060,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8305807,
+      "balance": 83348483,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-14",
+      "description": "Loan EMI",
+      "debit": 881757,
+      "credit": 0,
+      "balance": 95268816,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-15",
+      "description": "Salary Payment",
+      "debit": 4407533,
+      "credit": 0,
+      "balance": 90115925,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9185477,
+      "balance": 59185477,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6317786,
+      "balance": 112544547,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9045029,
+      "balance": 96150573,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7590290,
+      "balance": 66775767,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-18",
+      "description": "GST Payment",
+      "debit": 2631821,
+      "credit": 0,
+      "balance": 117950101,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-18",
+      "description": "Salary Payment",
+      "debit": 530401,
+      "credit": 0,
+      "balance": 117419700,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-18",
+      "description": "Utility Payment",
+      "debit": 4629148,
+      "credit": 0,
+      "balance": 78719336,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-22",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 8386209,
+      "balance": 87105544,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7355439,
+      "balance": 74131206,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-01-28",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4434131,
+      "balance": 94550056,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-02",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 3354598,
+      "balance": 129692989,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-02",
+      "description": "Raw Material Payment",
+      "debit": 3394006,
+      "credit": 0,
+      "balance": 120391106,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-03",
+      "description": "Raw Material Payment",
+      "debit": 2431291,
+      "credit": 0,
+      "balance": 126338391,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5089076,
+      "balance": 124946723,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7933194,
+      "balance": 126223277,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-05",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 3000025,
+      "balance": 133382460,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-06",
+      "description": "Loan EMI",
+      "debit": 238749,
+      "credit": 0,
+      "balance": 124707974,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-07",
+      "description": "Salary Payment",
+      "debit": 1090227,
+      "credit": 0,
+      "balance": 120420899,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-07",
+      "description": "Raw Material Payment",
+      "debit": 3779112,
+      "credit": 0,
+      "balance": 133356745,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-07",
+      "description": "Miscellaneous",
+      "debit": 3610257,
+      "credit": 0,
+      "balance": 121511126,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-09",
+      "description": "Miscellaneous",
+      "debit": 3077014,
+      "credit": 0,
+      "balance": 125121383,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-10",
+      "description": "Raw Material Payment",
+      "debit": 2468199,
+      "credit": 0,
+      "balance": 127224790,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-14",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5796774,
+      "balance": 130103708,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-14",
+      "description": "GST Payment",
+      "debit": 922861,
+      "credit": 0,
+      "balance": 123785112,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-15",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1065710,
+      "balance": 128769682,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1480696,
+      "balance": 127703972,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8165678,
+      "balance": 128198397,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-19",
+      "description": "Raw Material Payment",
+      "debit": 4224966,
+      "credit": 0,
+      "balance": 124650550,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-20",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7409235,
+      "balance": 124306935,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-20",
+      "description": "Raw Material Payment",
+      "debit": 759703,
+      "credit": 0,
+      "balance": 130382435,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-22",
+      "description": "Raw Material Payment",
+      "debit": 4485720,
+      "credit": 0,
+      "balance": 118290083,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-23",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2384696,
+      "balance": 122775803,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-27",
+      "description": "Utility Payment",
+      "debit": 2214607,
+      "credit": 0,
+      "balance": 131142138,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-27",
+      "description": "Miscellaneous",
+      "debit": 563252,
+      "credit": 0,
+      "balance": 119857647,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-28",
+      "description": "Raw Material Payment",
+      "debit": 4506945,
+      "credit": 0,
+      "balance": 128875515,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-28",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7032149,
+      "balance": 137135857,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-02-28",
+      "description": "Loan EMI",
+      "debit": 4617830,
+      "credit": 0,
+      "balance": 120032719,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-02",
+      "description": "GST Payment",
+      "debit": 3665284,
+      "credit": 0,
+      "balance": 122142566,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-03",
+      "description": "Miscellaneous",
+      "debit": 4633170,
+      "credit": 0,
+      "balance": 116132105,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2299922,
+      "balance": 124442489,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-05",
+      "description": "GST Payment",
+      "debit": 830804,
+      "credit": 0,
+      "balance": 108544858,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6631963,
+      "balance": 113299971,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7666552,
+      "balance": 120209249,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-15",
+      "description": "Salary Payment",
+      "debit": 362674,
+      "credit": 0,
+      "balance": 119846575,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9675745,
+      "balance": 125807850,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-17",
+      "description": "Salary Payment",
+      "debit": 3766157,
+      "credit": 0,
+      "balance": 109375661,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-19",
+      "description": "Salary Payment",
+      "debit": 2362482,
+      "credit": 0,
+      "balance": 124862307,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-24",
+      "description": "Raw Material Payment",
+      "debit": 1810039,
+      "credit": 0,
+      "balance": 122632449,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-24",
+      "description": "Salary Payment",
+      "debit": 1876850,
+      "credit": 0,
+      "balance": 106668008,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-24",
+      "description": "Salary Payment",
+      "debit": 757273,
+      "credit": 0,
+      "balance": 112542698,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-25",
+      "description": "Raw Material Payment",
+      "debit": 4670042,
+      "credit": 0,
+      "balance": 117962408,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-27",
+      "description": "Loan EMI",
+      "debit": 4820589,
+      "credit": 0,
+      "balance": 113141819,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-03-28",
+      "description": "Salary Payment",
+      "debit": 4097033,
+      "credit": 0,
+      "balance": 120765274,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-02",
+      "description": "Utility Payment",
+      "debit": 1056611,
+      "credit": 0,
+      "balance": 123584179,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-04",
+      "description": "Raw Material Payment",
+      "debit": 4525731,
+      "credit": 0,
+      "balance": 142130182,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-05",
+      "description": "Loan EMI",
+      "debit": 2344027,
+      "credit": 0,
+      "balance": 133559766,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6416855,
+      "balance": 135903792,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 706212,
+      "balance": 124640790,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-07",
+      "description": "Salary Payment",
+      "debit": 4913165,
+      "credit": 0,
+      "balance": 114933410,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-07",
+      "description": "Salary Payment",
+      "debit": 3616791,
+      "credit": 0,
+      "balance": 109741908,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-07",
+      "description": "Raw Material Payment",
+      "debit": 1574711,
+      "credit": 0,
+      "balance": 113358699,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3939162,
+      "balance": 127523341,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-09",
+      "description": "Loan EMI",
+      "debit": 1293110,
+      "credit": 0,
+      "balance": 126230231,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8892569,
+      "balance": 138282257,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-10",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9601019,
+      "balance": 146655913,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5509516,
+      "balance": 115251424,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-13",
+      "description": "Loan EMI",
+      "debit": 3295382,
+      "credit": 0,
+      "balance": 130264383,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-15",
+      "description": "Utility Payment",
+      "debit": 3574159,
+      "credit": 0,
+      "balance": 134708098,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-16",
+      "description": "Raw Material Payment",
+      "debit": 1802673,
+      "credit": 0,
+      "balance": 129486937,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-17",
+      "description": "Raw Material Payment",
+      "debit": 238264,
+      "credit": 0,
+      "balance": 125991967,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-20",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7127356,
+      "balance": 122378780,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-20",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9314487,
+      "balance": 137054894,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-21",
+      "description": "Raw Material Payment",
+      "debit": 2523977,
+      "credit": 0,
+      "balance": 127740407,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3397720,
+      "balance": 129389688,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-24",
+      "description": "Raw Material Payment",
+      "debit": 3418488,
+      "credit": 0,
+      "balance": 131289610,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-27",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 1555798,
+      "balance": 123934578,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-04-27",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 725966,
+      "balance": 142856148,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-03",
+      "description": "GST Payment",
+      "debit": 812549,
+      "credit": 0,
+      "balance": 144852330,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6966922,
+      "balance": 169457674,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-06",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 752549,
+      "balance": 175896438,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-06",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3377015,
+      "balance": 145011734,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-09",
+      "description": "Loan EMI",
+      "debit": 534201,
+      "credit": 0,
+      "balance": 175143889,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1945646,
+      "balance": 146957381,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-10",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8041912,
+      "balance": 157867643,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-11",
+      "description": "Salary Payment",
+      "debit": 4634900,
+      "credit": 0,
+      "balance": 144997842,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-14",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8165274,
+      "balance": 180850156,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-15",
+      "description": "Salary Payment",
+      "debit": 3217610,
+      "credit": 0,
+      "balance": 141634720,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-17",
+      "description": "Salary Payment",
+      "debit": 944362,
+      "credit": 0,
+      "balance": 162490752,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-17",
+      "description": "Salary Payment",
+      "debit": 3211556,
+      "credit": 0,
+      "balance": 172684882,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-20",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2675361,
+      "balance": 149632742,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-20",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4827888,
+      "balance": 149825730,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-22",
+      "description": "Salary Payment",
+      "debit": 813877,
+      "credit": 0,
+      "balance": 139573783,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-22",
+      "description": "Utility Payment",
+      "debit": 2468488,
+      "credit": 0,
+      "balance": 140387660,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-23",
+      "description": "Raw Material Payment",
+      "debit": 3033714,
+      "credit": 0,
+      "balance": 145664879,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-24",
+      "description": "Salary Payment",
+      "debit": 1096828,
+      "credit": 0,
+      "balance": 156770815,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9124809,
+      "balance": 148698592,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-25",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 6664299,
+      "balance": 163435114,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-05-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6220416,
+      "balance": 175678090,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-02",
+      "description": "Raw Material Payment",
+      "debit": 2420675,
+      "credit": 0,
+      "balance": 145040723,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-03",
+      "description": "Loan EMI",
+      "debit": 1240992,
+      "credit": 0,
+      "balance": 168288470,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-04",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 685542,
+      "balance": 175389299,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-06",
+      "description": "Loan EMI",
+      "debit": 3081218,
+      "credit": 0,
+      "balance": 154252154,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-07",
+      "description": "Loan EMI",
+      "debit": 4498968,
+      "credit": 0,
+      "balance": 147461398,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-07",
+      "description": "Raw Material Payment",
+      "debit": 4022573,
+      "credit": 0,
+      "balance": 151960367,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-07",
+      "description": "Miscellaneous",
+      "debit": 3429079,
+      "credit": 0,
+      "balance": 164640822,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-08",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1730785,
+      "balance": 155982939,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-08",
+      "description": "GST Payment",
+      "debit": 4098052,
+      "credit": 0,
+      "balance": 157333372,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-08",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 8603282,
+      "balance": 167440094,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 629807,
+      "balance": 168069902,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-14",
+      "description": "Salary Payment",
+      "debit": 2797456,
+      "credit": 0,
+      "balance": 172591842,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-14",
+      "description": "Loan EMI",
+      "debit": 4925784,
+      "credit": 0,
+      "balance": 175924372,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-21",
+      "description": "GST Payment",
+      "debit": 1220616,
+      "credit": 0,
+      "balance": 174703756,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-23",
+      "description": "GST Payment",
+      "debit": 2684601,
+      "credit": 0,
+      "balance": 158836813,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-24",
+      "description": "Raw Material Payment",
+      "debit": 3062380,
+      "credit": 0,
+      "balance": 169529462,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-27",
+      "description": "Loan EMI",
+      "debit": 3209398,
+      "credit": 0,
+      "balance": 161431424,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-28",
+      "description": "Miscellaneous",
+      "debit": 4173001,
+      "credit": 0,
+      "balance": 161521414,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-28",
+      "description": "Utility Payment",
+      "debit": 2594055,
+      "credit": 0,
+      "balance": 165694415,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-06-28",
+      "description": "Raw Material Payment",
+      "debit": 2860613,
+      "credit": 0,
+      "balance": 142180110,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-02",
+      "description": "Raw Material Payment",
+      "debit": 534170,
+      "credit": 0,
+      "balance": 187602520,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-02",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 3631867,
+      "balance": 146988310,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-03",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8707890,
+      "balance": 183606219,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-03",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 8528298,
+      "balance": 155516608,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-03",
+      "description": "Raw Material Payment",
+      "debit": 3896404,
+      "credit": 0,
+      "balance": 138283706,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-05",
+      "description": "Raw Material Payment",
+      "debit": 4687747,
+      "credit": 0,
+      "balance": 185996823,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-06",
+      "description": "Salary Payment",
+      "debit": 2990416,
+      "credit": 0,
+      "balance": 177849774,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-06",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6539205,
+      "balance": 190704809,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-07",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 2171195,
+      "balance": 134909114,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-07",
+      "description": "Salary Payment",
+      "debit": 1284998,
+      "credit": 0,
+      "balance": 154231610,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-07",
+      "description": "Salary Payment",
+      "debit": 4619124,
+      "credit": 0,
+      "balance": 133664582,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-09",
+      "description": "Raw Material Payment",
+      "debit": 430727,
+      "credit": 0,
+      "balance": 140874797,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-10",
+      "description": "Raw Material Payment",
+      "debit": 3898896,
+      "credit": 0,
+      "balance": 183563189,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8607242,
+      "balance": 168205122,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-13",
+      "description": "Raw Material Payment",
+      "debit": 1831220,
+      "credit": 0,
+      "balance": 184165604,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-14",
+      "description": "Raw Material Payment",
+      "debit": 991606,
+      "credit": 0,
+      "balance": 189713202,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-14",
+      "description": "Salary Payment",
+      "debit": 1250367,
+      "credit": 0,
+      "balance": 159597880,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-16",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 6396409,
+      "balance": 141305523,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-17",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 827799,
+      "balance": 188430320,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-17",
+      "description": "Raw Material Payment",
+      "debit": 968235,
+      "credit": 0,
+      "balance": 187462085,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-18",
+      "description": "GST Payment",
+      "debit": 926663,
+      "credit": 0,
+      "balance": 132737919,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-19",
+      "description": "Raw Material Payment",
+      "debit": 2722999,
+      "credit": 0,
+      "balance": 180840190,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-20",
+      "description": "Raw Material Payment",
+      "debit": 1576512,
+      "credit": 0,
+      "balance": 188136690,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-22",
+      "description": "GST Payment",
+      "debit": 4470856,
+      "credit": 0,
+      "balance": 143356443,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7078352,
+      "balance": 190684571,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6693207,
+      "balance": 174898329,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-25",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6952503,
+      "balance": 147827300,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-07-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6616637,
+      "balance": 160848247,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6489971,
+      "balance": 210574795,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-05",
+      "description": "Raw Material Payment",
+      "debit": 3258462,
+      "credit": 0,
+      "balance": 169982551,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-05",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7470698,
+      "balance": 177626166,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-05",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1923280,
+      "balance": 180560272,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-06",
+      "description": "Miscellaneous",
+      "debit": 4023542,
+      "credit": 0,
+      "balance": 206551253,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-11",
+      "description": "Loan EMI",
+      "debit": 1018714,
+      "credit": 0,
+      "balance": 204084824,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-11",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5523873,
+      "balance": 210840104,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-12",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 3477198,
+      "balance": 174699521,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1239771,
+      "balance": 171222323,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-14",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7057935,
+      "balance": 191547491,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-15",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4249751,
+      "balance": 215089855,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-17",
+      "description": "Raw Material Payment",
+      "debit": 1238897,
+      "credit": 0,
+      "balance": 173460623,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3869151,
+      "balance": 178636992,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-21",
+      "description": "Salary Payment",
+      "debit": 1697349,
+      "credit": 0,
+      "balance": 184489556,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-22",
+      "description": "Raw Material Payment",
+      "debit": 3722400,
+      "credit": 0,
+      "balance": 173241013,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-22",
+      "description": "Raw Material Payment",
+      "debit": 1235022,
+      "credit": 0,
+      "balance": 205316231,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-23",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5938360,
+      "balance": 197485851,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-23",
+      "description": "Loan EMI",
+      "debit": 886361,
+      "credit": 0,
+      "balance": 176963413,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-23",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 5626634,
+      "balance": 186186906,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-24",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7617688,
+      "balance": 205103539,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-24",
+      "description": "Miscellaneous",
+      "debit": 2381762,
+      "credit": 0,
+      "balance": 171078861,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-26",
+      "description": "Loan EMI",
+      "debit": 2858325,
+      "credit": 0,
+      "balance": 174767841,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-08-26",
+      "description": "GST Payment",
+      "debit": 923393,
+      "credit": 0,
+      "balance": 170155468,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-02",
+      "description": "Raw Material Payment",
+      "debit": 962187,
+      "credit": 0,
+      "balance": 209289232,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-04",
+      "description": "Salary Payment",
+      "debit": 1574347,
+      "credit": 0,
+      "balance": 207544301,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-04",
+      "description": "GST Payment",
+      "debit": 349417,
+      "credit": 0,
+      "balance": 202318476,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-04",
+      "description": "Salary Payment",
+      "debit": 3709861,
+      "credit": 0,
+      "balance": 210534029,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-05",
+      "description": "Raw Material Payment",
+      "debit": 1432628,
+      "credit": 0,
+      "balance": 210221263,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-06",
+      "description": "Loan EMI",
+      "debit": 754964,
+      "credit": 0,
+      "balance": 211653891,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4737699,
+      "balance": 214243890,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-10",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2849919,
+      "balance": 213071183,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-13",
+      "description": "Raw Material Payment",
+      "debit": 3401584,
+      "credit": 0,
+      "balance": 204142717,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1113713,
+      "balance": 210402945,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-19",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6800172,
+      "balance": 209118648,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-20",
+      "description": "Utility Payment",
+      "debit": 4433761,
+      "credit": 0,
+      "balance": 201416484,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-22",
+      "description": "Loan EMI",
+      "debit": 4179813,
+      "credit": 0,
+      "balance": 201542865,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-22",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7963326,
+      "balance": 209506191,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-22",
+      "description": "Raw Material Payment",
+      "debit": 2581850,
+      "credit": 0,
+      "balance": 210489333,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-23",
+      "description": "Salary Payment",
+      "debit": 3355582,
+      "credit": 0,
+      "balance": 207178447,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-24",
+      "description": "Miscellaneous",
+      "debit": 534309,
+      "credit": 0,
+      "balance": 205722678,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2114270,
+      "balance": 206256987,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-26",
+      "description": "Salary Payment",
+      "debit": 4552700,
+      "credit": 0,
+      "balance": 205850245,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-26",
+      "description": "Salary Payment",
+      "debit": 4838437,
+      "credit": 0,
+      "balance": 210251419,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1251409,
+      "balance": 202667893,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-09-27",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5230408,
+      "balance": 212408856,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-02",
+      "description": "Raw Material Payment",
+      "debit": 2126972,
+      "credit": 0,
+      "balance": 244903342,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-02",
+      "description": "Raw Material Payment",
+      "debit": 3724199,
+      "credit": 0,
+      "balance": 272585635,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6951259,
+      "balance": 253212753,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-09",
+      "description": "GST Payment",
+      "debit": 4334250,
+      "credit": 0,
+      "balance": 272654974,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-11",
+      "description": "Salary Payment",
+      "debit": 3949901,
+      "credit": 0,
+      "balance": 249262852,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2901759,
+      "balance": 276989223,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-12",
+      "description": "Utility Payment",
+      "debit": 1206304,
+      "credit": 0,
+      "balance": 247377294,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-14",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4140056,
+      "balance": 260611812,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1492756,
+      "balance": 238221390,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2789848,
+      "balance": 212788808,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-17",
+      "description": "Loan EMI",
+      "debit": 4020004,
+      "credit": 0,
+      "balance": 261343290,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7623848,
+      "balance": 274087465,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 7426026,
+      "balance": 236728634,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-19",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9845958,
+      "balance": 229302608,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-20",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8040105,
+      "balance": 246261495,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-21",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9094462,
+      "balance": 256471756,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-21",
+      "description": "Miscellaneous",
+      "debit": 4961285,
+      "credit": 0,
+      "balance": 256382006,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-21",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 6667842,
+      "balance": 219456650,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-21",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 3680255,
+      "balance": 248583598,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-22",
+      "description": "Raw Material Payment",
+      "debit": 2283480,
+      "credit": 0,
+      "balance": 270371494,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-22",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 5938340,
+      "balance": 276309834,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-22",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4559143,
+      "balance": 275919239,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-23",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4895594,
+      "balance": 261277600,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-24",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 4751482,
+      "balance": 265363294,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-24",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5186016,
+      "balance": 266463616,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-26",
+      "description": "Salary Payment",
+      "debit": 1225539,
+      "credit": 0,
+      "balance": 271360096,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-27",
+      "description": "Raw Material Payment",
+      "debit": 2232537,
+      "credit": 0,
+      "balance": 247030315,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-27",
+      "description": "Raw Material Payment",
+      "debit": 490373,
+      "credit": 0,
+      "balance": 209998960,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-10-27",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 6688259,
+      "balance": 282607498,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-02",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4054289,
+      "balance": 323022037,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-03",
+      "description": "Raw Material Payment",
+      "debit": 3131588,
+      "credit": 0,
+      "balance": 315964206,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-05",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 7861202,
+      "balance": 323825408,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-05",
+      "description": "Salary Payment",
+      "debit": 4807319,
+      "credit": 0,
+      "balance": 330458914,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-05",
+      "description": "Raw Material Payment",
+      "debit": 3189429,
+      "credit": 0,
+      "balance": 317021842,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-07",
+      "description": "Raw Material Payment",
+      "debit": 869116,
+      "credit": 0,
+      "balance": 340397853,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-07",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 3114890,
+      "balance": 333483410,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-08",
+      "description": "GST Payment",
+      "debit": 2304654,
+      "credit": 0,
+      "balance": 280302844,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-08",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6377014,
+      "balance": 306249480,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-08",
+      "description": "Raw Material Payment",
+      "debit": 1051501,
+      "credit": 0,
+      "balance": 279251343,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 9202058,
+      "balance": 299076392,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-09",
+      "description": "Salary Payment",
+      "debit": 2068160,
+      "credit": 0,
+      "balance": 318967748,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-09",
+      "description": "Utility Payment",
+      "debit": 1353820,
+      "credit": 0,
+      "balance": 339044033,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-11",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 4380875,
+      "balance": 319095795,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-12",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 859765,
+      "balance": 286927191,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-13",
+      "description": "Raw Material Payment",
+      "debit": 742499,
+      "credit": 0,
+      "balance": 286184692,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-13",
+      "description": "Raw Material Payment",
+      "debit": 4813612,
+      "credit": 0,
+      "balance": 321035907,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2744236,
+      "balance": 337645908,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-17",
+      "description": "GST Payment",
+      "debit": 4609395,
+      "credit": 0,
+      "balance": 325849520,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-17",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 796074,
+      "balance": 299872466,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-18",
+      "description": "Raw Material Payment",
+      "debit": 2121035,
+      "credit": 0,
+      "balance": 277130308,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3621062,
+      "balance": 341266969,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-18",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3689642,
+      "balance": 289874334,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-18",
+      "description": "Loan EMI",
+      "debit": 3777799,
+      "credit": 0,
+      "balance": 335266234,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-20",
+      "description": "Utility Payment",
+      "debit": 2810766,
+      "credit": 0,
+      "balance": 320211271,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-21",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 8937118,
+      "balance": 286067426,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8465441,
+      "balance": 314714920,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-23",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1418262,
+      "balance": 334901671,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-11-26",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 6543111,
+      "balance": 330368520,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-02",
+      "description": "Loan EMI",
+      "debit": 3045686,
+      "credit": 0,
+      "balance": 336861979,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-02",
+      "description": "Raw Material Payment",
+      "debit": 3893084,
+      "credit": 0,
+      "balance": 320094163,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-03",
+      "description": "Salary Payment",
+      "debit": 3778673,
+      "credit": 0,
+      "balance": 316305995,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-06",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 9907251,
+      "balance": 339907666,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-09",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 3304272,
+      "balance": 320326114,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-10",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 1537493,
+      "balance": 321631655,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-10",
+      "description": "Loan EMI",
+      "debit": 1800595,
+      "credit": 0,
+      "balance": 320084668,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-13",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4302530,
+      "balance": 316273028,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-15",
+      "description": "Raw Material Payment",
+      "debit": 1347069,
+      "credit": 0,
+      "balance": 314958926,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 5131481,
+      "balance": 341353728,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-16",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 8609352,
+      "balance": 351189830,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-17",
+      "description": "Salary Payment",
+      "debit": 951370,
+      "credit": 0,
+      "balance": 340402358,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-19",
+      "description": "GST Payment",
+      "debit": 639733,
+      "credit": 0,
+      "balance": 336222247,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-19",
+      "description": "Raw Material Payment",
+      "debit": 2489360,
+      "credit": 0,
+      "balance": 319142295,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-21",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 4857534,
+      "balance": 323999829,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-21",
+      "description": "Interest Income",
+      "debit": 0,
+      "credit": 7714219,
+      "balance": 323987247,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-21",
+      "description": "Miscellaneous",
+      "debit": 2988428,
+      "credit": 0,
+      "balance": 311970498,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-22",
+      "description": "Loan EMI",
+      "debit": 3875452,
+      "credit": 0,
+      "balance": 347314379,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-26",
+      "description": "Export Receipt",
+      "debit": 0,
+      "credit": 6000586,
+      "balance": 330000415,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-27",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 1559150,
+      "balance": 321885263,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    },
+    {
+      "date": "2024-12-28",
+      "description": "NEFT Receipt - Customer",
+      "debit": 0,
+      "credit": 2178120,
+      "balance": 342580478,
+      "company": "abc",
+      "source": "SYNTHETIC"
+    }
+  ],
+  "file_hash": "d9d6806ae0512db567c4762b330c0caf"
+}
