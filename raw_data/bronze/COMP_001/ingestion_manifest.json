@@ -1,16 +1,16 @@
 {
   "borrower": {
     "company_id": "COMP_001",
-    "company_name": "Tata Steel Limited",
+    "company_name": "abc",
     "industry": "Steel Manufacturing",
     "promoter_name": "N Chandrasekaran",
     "cin": "L28920MH1907PLC000260",
     "loan_amount": 50000000,
     "loan_purpose": "Working Capital",
     "loan_tenure_years": 5,
-    "application_date": "2026-03-21"
+    "application_date": "2026-03-26"
   },
-  "ingestion_timestamp": "2026-03-21T20:05:55.638611",
+  "ingestion_timestamp": "2026-03-26T09:21:55.997264",
   "bronze_root": "C:\\Users\\anisk\\OneDrive\\Desktop\\Credit\\raw_data\\bronze",
   "sources": {
     "financials": {
@@ -20,7 +20,7 @@
     },
     "bank_statements": {
       "status": "\u2705",
-      "rows": 285,
+      "rows": 275,
       "source": "SYNTHETIC"
     },
     "gst": {
@@ -30,7 +30,7 @@
     },
     "cibil": {
       "status": "\u2705",
-      "score": 704,
+      "score": 720,
       "source": "SYNTHETIC",
       "encryption_pending": true
     },
