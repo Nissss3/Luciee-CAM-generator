@@ -1,0 +1,13 @@
+{
+  "run_timestamp": "2026-03-26T11:34:00.330978",
+  "model_aucs": {
+    "LogisticRegression": 0.7664,
+    "RandomForest": 0.7574,
+    "XGBoost": 0.7809,
+    "LightGBM": 0.7787,
+    "Ensemble_Stack": 0.7822,
+    "Weighted_Average": 0.7803
+  },
+  "best_model": "Ensemble_Stack",
+  "feature_count": 165
+}
