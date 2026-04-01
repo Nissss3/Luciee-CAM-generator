@@ -26,10 +26,25 @@ const {
 const fs = require("fs");
 const path = require("path");
 
-// ── Load CAM JSON ─────────────────────────────────────────
-const camPath = process.argv[2] || "./sample_cam.json";
+// ── Load CAM JSON — auto-finds latest cam_layer6_*.json ───
+function findLatestCamJson() {
+  try {
+    const files = fs.readdirSync(__dirname)
+      .filter(f => f.startsWith("cam_layer6_") && f.endsWith(".json"))
+      .map(f => ({ name: f, mtime: fs.statSync(path.join(__dirname, f)).mtimeMs }))
+      .sort((a, b) => b.mtime - a.mtime);
+    return files.length > 0 ? path.join(__dirname, files[0].name) : null;
+  } catch(e) { return null; }
+}
+const camPath = process.argv[2] || findLatestCamJson() || "./sample_cam.json";
+if (!fs.existsSync(camPath)) {
+  console.error(`❌ CAM JSON not found: ${camPath}`);
+  console.error("   Run layer6.py first to generate it.");
+  process.exit(1);
+}
+console.log(`📄 Loading: ${path.basename(camPath)}`);
 const CAM = JSON.parse(fs.readFileSync(camPath, "utf8"));
-
+ 
 const TODAY = new Date().toLocaleDateString("en-IN", {
   day: "2-digit", month: "long", year: "numeric"
 });

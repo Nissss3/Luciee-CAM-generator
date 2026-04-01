@@ -18,6 +18,11 @@ SETUP:
 ============================================================
 """
 
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
+
 # ============================================================
 # SECTION 0 — IMPORTS
 # ============================================================
@@ -44,7 +49,7 @@ print(f"📅 Run: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 # SECTION 1 — CONFIGURATION
 # ============================================================
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDx-dfsg8t2kKTmNLEK01rZIpPi9XKpgxo")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCkLUiau-h2In29KiP9hBLADlY2GBJl51A")
 
 # ── Use whichever model test_gemini.py confirmed works ─────
 GEMINI_MODEL = "gemini-2.0-flash"  # ← change if needed
@@ -857,27 +862,159 @@ MOCK_RESEARCH_REPORT = {
 
 
 if __name__ == "__main__":
+    import sys
+    from pathlib import Path
 
-    # ── OPTION A: Use mock data (default — works immediately) ──
-    ml_output       = MOCK_ML_OUTPUT
-    research_report = MOCK_RESEARCH_REPORT
+    BASE_DIR     = Path(os.path.dirname(os.path.abspath(__file__)))
+    PROFILE_PATH = BASE_DIR / "borrower_profile.json"
 
-    # ── OPTION B: Load real Layer 3 + Layer 5 outputs ─────────
-    # Uncomment and update paths to use your actual outputs:
-    #
-    # with open("research_report_COMP_001_20260308.json") as f:
-    #     research_report = json.load(f)
-    #
-    # ml_output = make_lending_decision(...)  # from credit_ml_engine.py
+    # ── Load borrower_profile.json ─────────────────────────
+    if not PROFILE_PATH.exists():
+        print("❌ borrower_profile.json not found — run layer2.py first")
+        sys.exit(1)
 
+    with open(PROFILE_PATH, "r", encoding="utf-8") as f:
+        profile = json.load(f)
+
+    company_name = profile.get("company_name",  "Unknown Borrower")
+    company_id   = profile.get("company_id",    "COMP_001")
+    industry     = profile.get("industry",      "General")
+    loan_purpose = profile.get("loan_purpose",  "Working Capital")
+
+    print(f"✅ Loaded borrower_profile.json: {company_name}")
+
+    # ── Load Layer 3 research report ───────────────────────
+    # Try: (1) from profile directly, (2) from research_report JSON file
+    research_report = None
+
+    if profile.get("layer3_completed"):
+        # Build research dict from profile layer3 fields
+        research_report = {
+            "company_name"               : company_name,
+            "composite_research_risk_score": profile.get("layer3_research_score", 50),
+            "research_risk_level"        : profile.get("layer3_risk_level", "Moderate"),
+            "research_recommendation"    : profile.get("layer3_recommendation", ""),
+            "red_flag_count"             : len(profile.get("layer3_red_flags", [])),
+            "has_critical_flags"         : any("🔴" in str(f) for f in profile.get("layer3_red_flags", [])),
+            "red_flags"                  : profile.get("layer3_red_flags", []),
+            "esg_pricing_adjustment_bps" : profile.get("layer3_esg_pricing_bps", 25),
+            "module_scores"              : {},
+            "cam_narratives"             : profile.get("layer3_cam_narratives", {}),
+            "modules"                    : {},
+        }
+        print(f"✅ Layer 3 research loaded from profile (score: {research_report['composite_research_risk_score']})")
+    else:
+        # Try to find research_report JSON file
+        import glob
+        rr_files = sorted(
+            glob.glob(str(BASE_DIR / f"research_report_{company_id}_*.json")),
+            key=os.path.getmtime
+        )
+        if rr_files:
+            with open(rr_files[-1], "r", encoding="utf-8") as f:
+                research_report = json.load(f)
+            print(f"✅ Layer 3 loaded from: {Path(rr_files[-1]).name}")
+        else:
+            print("⚠️  No Layer 3 research found — using mock research data")
+            research_report = MOCK_RESEARCH_REPORT
+
+    # ── Load Layer 5 ML output ─────────────────────────────
+    # Try: (1) from profile layer5 fields, (2) fallback to Layer 4 scores
+    ml_output = None
+
+    if profile.get("layer5_completed"):
+        fin_feats = profile.get("financial_features", {})
+        ml_output = {
+            "borrower"    : company_name,
+            "decision"    : profile.get("layer5_decision",    "CONDITIONAL APPROVE"),
+            "pd_score"    : float(profile.get("layer5_final_pd", 0.10)),
+            "credit_limit": float(profile.get("layer5_credit_limit", 0)),
+            "risk_rating" : profile.get("layer5_risk_rating", {"rating": 5, "grade": "BB", "label": "Acceptable"}),
+            "metrics": {
+                "PD"               : float(profile.get("layer5_final_pd", 0.10)),
+                "LGD"              : 0.45,
+                "EAD"              : float(profile.get("loan_amount", 0)),
+                "Expected_Loss"    : float(profile.get("layer5_final_pd", 0.10)) * 0.45 * float(profile.get("loan_amount", 0)),
+                "Expected_Loss_Pct": float(profile.get("layer5_final_pd", 0.10)) * 0.45 * 100,
+            },
+            "pricing"           : profile.get("layer5_pricing", {}),
+            "shap_explanations" : profile.get("layer5_shap_explanations", []),
+            "financial_features": {
+                "AMT_INCOME_TOTAL"   : fin_feats.get("AMT_INCOME_TOTAL",    0),
+                "AMT_CREDIT"         : fin_feats.get("AMT_CREDIT",          0),
+                "AMT_ANNUITY"        : fin_feats.get("AMT_ANNUITY",         0),
+                "CREDIT_INCOME_RATIO": fin_feats.get("CREDIT_INCOME_RATIO", 0),
+                "ANNUITY_INCOME_RATIO":fin_feats.get("ANNUITY_INCOME_RATIO",0),
+                "EXT_SOURCE_MEAN"    : fin_feats.get("EXT_SOURCE_MEAN",     0.65),
+                "EXT_SOURCE_MIN"     : fin_feats.get("EXT_SOURCE_MIN",      0.55),
+                "AGE_YEARS"          : abs(fin_feats.get("DAYS_BIRTH", -14600)) / 365,
+                "YEARS_EMPLOYED"     : abs(fin_feats.get("DAYS_EMPLOYED", -3650)) / 365,
+                "BUREAU_LOAN_COUNT"  : fin_feats.get("BUREAU_LOAN_COUNT",   5),
+                "BUREAU_DPD_MAX"     : fin_feats.get("BUREAU_DPD_MAX",      0),
+                "INST_LATE_RATE"     : fin_feats.get("INST_LATE_RATE",      0),
+                "CC_UTILIZATION_MEAN": fin_feats.get("CC_UTILIZATION_MEAN", 0.3),
+                "POS_DPD_FLAG_RATE"  : fin_feats.get("POS_DPD_FLAG_RATE",   0),
+            }
+        }
+        print(f"✅ Layer 5 ML loaded from profile (decision: {ml_output['decision']})")
+
+    else:
+        # Fallback: use Layer 4 composite risk score to estimate PD
+        print("⚠️  Layer 5 not found — using Layer 4 risk score as ML proxy")
+        l4_score  = float(profile.get("layer4_composite_risk_score", 50))
+        proxy_pd  = round(l4_score / 200, 4)   # rough mapping: score 50 → PD 0.25
+        l4_limit  = profile.get("layer4_dynamic_limit", {})
+        fin_feats = profile.get("financial_features", {})
+
+        ml_output = {
+            "borrower"    : company_name,
+            "decision"    : profile.get("layer4_recommendation", "CONDITIONAL APPROVE"),
+            "pd_score"    : proxy_pd,
+            "credit_limit": float(l4_limit.get("base_recommendation", profile.get("loan_amount", 0) * 0.75)),
+            "risk_rating" : {"rating": 5, "grade": profile.get("layer4_risk_grade", "BB"),
+                             "label": profile.get("layer4_risk_label", "Acceptable")},
+            "metrics": {
+                "PD"               : proxy_pd,
+                "LGD"              : 0.45,
+                "EAD"              : float(profile.get("loan_amount", 0)),
+                "Expected_Loss"    : proxy_pd * 0.45 * float(profile.get("loan_amount", 0)),
+                "Expected_Loss_Pct": proxy_pd * 0.45 * 100,
+            },
+            "pricing"           : {},
+            "shap_explanations" : [],
+            "financial_features": {
+                "AMT_INCOME_TOTAL"   : fin_feats.get("AMT_INCOME_TOTAL",    0),
+                "AMT_CREDIT"         : fin_feats.get("AMT_CREDIT",          0),
+                "AMT_ANNUITY"        : fin_feats.get("AMT_ANNUITY",         0),
+                "CREDIT_INCOME_RATIO": fin_feats.get("CREDIT_INCOME_RATIO", 0),
+                "ANNUITY_INCOME_RATIO":fin_feats.get("ANNUITY_INCOME_RATIO",0),
+                "EXT_SOURCE_MEAN"    : fin_feats.get("EXT_SOURCE_MEAN",     0.65),
+                "EXT_SOURCE_MIN"     : fin_feats.get("EXT_SOURCE_MIN",      0.55),
+                "AGE_YEARS"          : abs(fin_feats.get("DAYS_BIRTH", -14600)) / 365,
+                "YEARS_EMPLOYED"     : abs(fin_feats.get("DAYS_EMPLOYED", -3650)) / 365,
+                "BUREAU_LOAN_COUNT"  : fin_feats.get("BUREAU_LOAN_COUNT",   5),
+                "BUREAU_DPD_MAX"     : fin_feats.get("BUREAU_DPD_MAX",      0),
+                "INST_LATE_RATE"     : fin_feats.get("INST_LATE_RATE",      0),
+                "CC_UTILIZATION_MEAN": fin_feats.get("CC_UTILIZATION_MEAN", 0.3),
+                "POS_DPD_FLAG_RATE"  : fin_feats.get("POS_DPD_FLAG_RATE",   0),
+            }
+        }
+
+    # ── Run Layer 6 ────────────────────────────────────────
     cam = run_layer6(
-        ml_output       = ml_output,
+        ml_output     = ml_output,
         research_report = research_report,
-        borrower_name   = "Tata Steel Limited",
-        borrower_id     = "COMP_001",
-        industry        = "Steel Manufacturing",
-        loan_purpose    = "Capex — Blast Furnace Expansion",
+        borrower_name = company_name,
+        borrower_id   = company_id,
+        industry      = industry,
+        loan_purpose  = loan_purpose,
     )
 
-    # cam dict is ready — pass directly to Layer 7
+    # ── Write layer6_completed back to profile ─────────────
+    with open(PROFILE_PATH, "r", encoding="utf-8") as f:
+        profile = json.load(f)
+    profile["layer6_completed"] = True
+    with open(PROFILE_PATH, "w", encoding="utf-8") as f:
+        json.dump(profile, f, indent=2, default=str)
+
     print("\n✅ Layer 6 complete. CAM JSON ready for Layer 7.")

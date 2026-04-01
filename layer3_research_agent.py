@@ -27,6 +27,11 @@ GET FREE API KEYS:
     Tavily : https://app.tavily.com  (1000 free searches/month)
 """
 
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
+
 # ============================================================
 # SECTION 0 — IMPORTS & CONFIGURATION
 # ============================================================
@@ -49,7 +54,7 @@ from google.genai import types as genai_types
 #              export GEMINI_API_KEY=your_key (Mac/Linux)
 # OR just paste directly below for testing:
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDx-dfsg8t2kKTmNLEK01rZIpPi9XKpgxo")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBFuQiSDh3vcFB2w80TV1zfkOYJhy47Ot0")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "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")
 
 # ── Configure Gemini ───────────────────────────────────────
@@ -1147,24 +1152,39 @@ def run_research_pipeline(
 # ============================================================
 
 if __name__ == "__main__":
+    import sys
+    from pathlib import Path
 
-    # ── Example: Run research on a borrower company ───────
-    # Change these values for your actual borrower
+    BASE_DIR     = Path(os.path.dirname(os.path.abspath(__file__)))
+    PROFILE_PATH = BASE_DIR / "borrower_profile.json"
+
+    if not PROFILE_PATH.exists():
+        print("❌ borrower_profile.json not found — run layer2.py first")
+        sys.exit(1)
+
+    with open(PROFILE_PATH, "r", encoding="utf-8") as f:
+        profile = json.load(f)
 
     report = run_research_pipeline(
-        company_name  = "Tata Steel Limited",       # Company applying for loan
-        company_id    = "COMP_001",                  # Your internal ID
-        industry      = "Steel Manufacturing",       # Their industry
-        promoter_name = "N Chandrasekaran",          # Main promoter/director
-        cin           = "L28920MH1907PLC000260"      # CIN from MCA (optional)
+        company_name  = profile.get("company_name",  "Unknown"),
+        company_id    = profile.get("company_id",    "COMP_001"),
+        industry      = profile.get("industry",      "General"),
+        promoter_name = profile.get("promoter_name", None),
+        cin           = profile.get("cin",           None)
     )
 
-    # The report dict feeds into:
-    # → Layer 5: report["composite_research_risk_score"] adjusts PD model
-    # → Layer 7: report["cam_narratives"] auto-fills CAM sections
-    # → Credit committee: report["red_flags"] triggers escalation
+    # Write layer3 results back to borrower_profile.json
+    profile["layer3_completed"]        = True
+    profile["layer3_research_score"]   = report["composite_research_risk_score"]
+    profile["layer3_risk_level"]       = report["research_risk_level"]
+    profile["layer3_red_flags"]        = report["red_flags"]
+    profile["layer3_esg_pricing_bps"]  = report["esg_pricing_adjustment_bps"]
+    profile["layer3_recommendation"]   = report["research_recommendation"]
+    profile["layer3_cam_narratives"]   = report.get("cam_narratives", {})
 
-    print("\nLayer 3 Research Agent complete.")
-    print(f"   Research Risk Score : {report['composite_research_risk_score']}/100")
-    print(f"   Red Flags Found     : {report['red_flag_count']}")
-    print(f"   Recommendation      : {report['research_recommendation']}")
+    with open(PROFILE_PATH, "w", encoding="utf-8") as f:
+        json.dump(profile, f, indent=2)
+
+    print(f"\n✅ Layer 3 complete. Research score: {report['composite_research_risk_score']}/100")
+    print(f"   Red Flags: {report['red_flag_count']}")
+    print(f"   borrower_profile.json updated with layer3_* fields")
