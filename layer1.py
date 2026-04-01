@@ -40,7 +40,7 @@ try:
     spark = SparkSession.builder.appName("CreditEngine_Layer1").getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
     SPARK_AVAILABLE = True
-except ImportError:
+except Exception:
     SPARK_AVAILABLE = False
 
 # ── Output paths ─────────────────────────────────────────────
@@ -50,7 +50,10 @@ LOG_DIR    = BASE_DIR / "raw_data" / "logs"
 for d in [BRONZE_DIR, LOG_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
-
+if "pipeline_triggered" not in st.session_state:
+    st.session_state["pipeline_triggered"] = False
+if "ingestion_done" not in st.session_state:
+    st.session_state["ingestion_done"] = False
 # ============================================================
 # PAGE CONFIG + THEME
 # ============================================================
@@ -798,7 +801,7 @@ def upload_bronze_to_databricks(company_id: str, bronze_dir: Path) -> dict:
         except Exception as e:
             return {"status": "❌ error", "error": str(e)[:150]}
 
-    # ── Create root bronze folder ──────────────────────────────
+    # ── Create root bronze folder ────────────F──────────────────
     mk_ws_dir(f"/Workspace/CreditEngine/bronze/{company_id}")
 
     # ── Walk every source subfolder ───────────────────────────
@@ -848,7 +851,448 @@ def upload_bronze_to_databricks(company_id: str, bronze_dir: Path) -> dict:
         "failed"   : failed,
         "results"  : results
     }
+def _render_results_dashboard(company_name: str, pipeline_log: str):
+    """
+    Render the final CAM results dashboard after pipeline completes.
+    Reads borrower_profile.json and ml_output.json for data.
+    """
+    import glob
 
+    st.markdown("---")
+    st.markdown("""
+    <div style='font-family:"DM Serif Display",serif; font-size:1.5rem;
+                color:#1A3C2E; margin-bottom:0.25rem;'>
+        Credit Decision Results
+    </div>
+    <div style='font-size:0.85rem; color:#6B8C78; margin-bottom:1.5rem;'>
+        Full pipeline complete — CAM generated
+    </div>
+    """, unsafe_allow_html=True)
+
+    # ── Load output files ──────────────────────────────────
+    profile    = {}
+    ml_output  = {}
+    cam_data   = {}
+
+    try:
+        with open(BASE_DIR / "borrower_profile.json", "r") as f:
+            profile = json.load(f)
+    except Exception:
+        pass
+
+    try:
+        with open(BASE_DIR / "ml_output.json", "r") as f:
+            ml_output = json.load(f)
+    except Exception:
+        pass
+
+    cam_files = sorted(glob.glob(str(BASE_DIR / "cam_layer6_*.json")))
+    if cam_files:
+        try:
+            with open(cam_files[-1], "r") as f:
+                cam_data = json.load(f)
+        except Exception:
+            pass
+
+    # ── Decision banner ────────────────────────────────────
+    decision   = ml_output.get("decision", profile.get("layer5_decision",
+                 profile.get("layer4_recommendation", "PENDING")))
+    pd_score   = ml_output.get("pd_score",  profile.get("layer5_final_pd", 0))
+    risk_rating= ml_output.get("risk_rating", profile.get("layer5_risk_rating", {}))
+    pricing    = ml_output.get("pricing",    profile.get("layer5_pricing", {}))
+    credit_lim = ml_output.get("credit_limit", profile.get("layer5_credit_limit",
+                 profile.get("layer4_dynamic_limit", {}).get("base_recommendation", 0)))
+    el_metrics = ml_output.get("metrics", profile.get("layer5_metrics", {}))
+
+    DECISION_COLORS = {
+        "APPROVE"              : ("#E8F8F0", "#2D7A4F", "#43AB54", "🟢"),
+        "CONDITIONAL APPROVE"  : ("#FFF8EC", "#9A6800", "#E8A83E", "🟡"),
+        "REFER TO SENIOR CREDIT": ("#FFF3E0", "#7A4500", "#FF9800", "🟠"),
+        "REJECT"               : ("#FDECEA", "#C0392B", "#E57373", "🔴"),
+    }
+    dc = DECISION_COLORS.get(decision, ("#F5F5F5", "#333", "#888", "⚪"))
+
+    grade = risk_rating.get("grade", profile.get("layer4_risk_grade", "—"))
+    label = risk_rating.get("label", profile.get("layer4_risk_label", "—"))
+
+    st.markdown(f"""
+    <div style='background:{dc[0]}; border:2px solid {dc[2]}; border-radius:16px;
+                padding:1.5rem 2rem; margin-bottom:1.5rem; display:flex;
+                align-items:center; gap:2rem;'>
+        <div style='font-size:2.5rem; line-height:1;'>{dc[3]}</div>
+        <div style='flex:1;'>
+            <div style='font-size:0.65rem; font-weight:700; letter-spacing:0.18em;
+                        text-transform:uppercase; color:{dc[1]}; margin-bottom:0.3rem;'>
+                Credit Decision
+            </div>
+            <div style='font-family:"DM Serif Display",serif; font-size:1.6rem;
+                        color:{dc[1]}; line-height:1.1;'>{decision}</div>
+            <div style='font-size:0.8rem; color:{dc[1]}; opacity:0.8; margin-top:0.2rem;'>
+                {company_name}
+            </div>
+        </div>
+        <div style='text-align:center; padding:0 1.5rem;
+                    border-left:1px solid {dc[2]}44;'>
+            <div style='font-size:2rem; font-weight:800; color:{dc[1]};'>{grade}</div>
+            <div style='font-size:0.65rem; letter-spacing:0.1em; text-transform:uppercase;
+                        color:{dc[1]}; opacity:0.7;'>{label}</div>
+        </div>
+        <div style='text-align:center; padding:0 1.5rem;
+                    border-left:1px solid {dc[2]}44;'>
+            <div style='font-size:1.6rem; font-weight:700; color:{dc[1]};'>
+                {pd_score*100:.2f}%</div>
+            <div style='font-size:0.65rem; letter-spacing:0.1em; text-transform:uppercase;
+                        color:{dc[1]}; opacity:0.7;'>PD Score</div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # ── 4 key metrics ──────────────────────────────────────
+    col1, col2, col3, col4 = st.columns(4)
+
+    def result_metric(col, value, label, sub=""):
+        col.markdown(f"""
+        <div style='background:#fff; border:1px solid #C8E0CB; border-radius:12px;
+                    padding:1.1rem 1.25rem; border-top:3px solid #2D7A4F;'>
+            <div style='font-size:0.6rem; font-weight:600; letter-spacing:0.14em;
+                        text-transform:uppercase; color:#6B8C78; margin-bottom:0.4rem;'>{label}</div>
+            <div style='font-size:1.5rem; font-weight:700; color:#1A3C2E; line-height:1;'>{value}</div>
+            <div style='font-size:0.72rem; color:#6B8C78; margin-top:0.3rem;'>{sub}</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    result_metric(col1,
+        f"₹{credit_lim:,.0f}" if credit_lim else "—",
+        "Recommended Limit",
+        f"Requested: ₹{profile.get('loan_amount',0):,.0f}"
+    )
+    result_metric(col2,
+        pricing.get("recommended_rate", "—"),
+        "Interest Rate",
+        f"Band: {pricing.get('rate_band', '—')}"
+    )
+    result_metric(col3,
+        f"₹{el_metrics.get('Expected_Loss', 0):,.0f}",
+        "Expected Loss",
+        f"{el_metrics.get('Expected_Loss_Pct', 0):.2f}% of loan"
+    )
+    result_metric(col4,
+        f"{el_metrics.get('LGD', 0)*100:.0f}%",
+        "Loss Given Default",
+        f"EAD: ₹{el_metrics.get('EAD', 0):,.0f}"
+    )
+
+    st.markdown("<div style='margin-top:1.5rem;'></div>", unsafe_allow_html=True)
+
+    # ── Risk scores row ────────────────────────────────────
+    col_l, col_r = st.columns(2)
+
+    with col_l:
+        st.markdown("""
+        <div style='font-size:0.65rem; font-weight:600; letter-spacing:0.14em;
+                    text-transform:uppercase; color:#4A9268; margin-bottom:0.75rem;
+                    display:flex; align-items:center; gap:0.5rem;'>
+            Risk Scores
+            <span style='flex:1; height:1px; background:#C8E0CB;'></span>
+        </div>
+        """, unsafe_allow_html=True)
+
+        fin_risk  = profile.get("layer4_financial_risk", {})
+        biz_risk  = profile.get("layer4_business_risk", {})
+        mgmt_risk = profile.get("layer4_management_risk", {})
+        composite = profile.get("layer4_composite_risk_score", 0)
+
+        def score_bar(label, score, max_score=100):
+            pct   = min(score / max_score * 100, 100)
+            color = "#2D7A4F" if pct < 35 else "#E8A83E" if pct < 65 else "#C0392B"
+            st.markdown(f"""
+            <div style='margin-bottom:0.75rem;'>
+                <div style='display:flex; justify-content:space-between;
+                            font-size:0.78rem; margin-bottom:0.3rem;'>
+                    <span style='color:#1A3C2E; font-weight:500;'>{label}</span>
+                    <span style='color:{color}; font-weight:700;'>{score:.0f}/100</span>
+                </div>
+                <div style='background:#F0F0F0; border-radius:99px; height:7px;'>
+                    <div style='width:{pct}%; background:{color}; border-radius:99px;
+                                height:7px; transition:width 0.5s;'></div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+        score_bar("Financial Risk",  fin_risk.get("composite", 0))
+        score_bar("Business Risk",   biz_risk.get("composite", 0))
+        score_bar("Management Risk", mgmt_risk.get("composite", 0))
+        score_bar("Composite Risk",  composite)
+
+        stress = profile.get("layer4_stress_test", {})
+        if stress:
+            stress_color = {
+                "RESILIENT" : "#2D7A4F", "ADEQUATE": "#4A9268",
+                "VULNERABLE": "#E8A83E", "FRAGILE" : "#C0392B"
+            }.get(stress.get("stress_rating", ""), "#888")
+            st.markdown(f"""
+            <div style='background:#F4FAF6; border:1px solid #C8E0CB; border-radius:8px;
+                        padding:0.75rem 1rem; margin-top:0.5rem;'>
+                <div style='font-size:0.65rem; font-weight:600; letter-spacing:0.12em;
+                            text-transform:uppercase; color:#6B8C78;'>Stress Test Rating</div>
+                <div style='font-size:1.1rem; font-weight:700; color:{stress_color};
+                            margin-top:0.2rem;'>{stress.get("stress_rating", "—")}</div>
+                <div style='font-size:0.72rem; color:#6B8C78;'>
+                    {stress.get("scenarios_passing", 0)}/5 scenarios pass minimum DSCR
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+    with col_r:
+        st.markdown("""
+        <div style='font-size:0.65rem; font-weight:600; letter-spacing:0.14em;
+                    text-transform:uppercase; color:#4A9268; margin-bottom:0.75rem;
+                    display:flex; align-items:center; gap:0.5rem;'>
+            SHAP — Top Risk Drivers
+            <span style='flex:1; height:1px; background:#C8E0CB;'></span>
+        </div>
+        """, unsafe_allow_html=True)
+
+        shap_vals = ml_output.get("shap_explanations", [])
+        if shap_vals:
+            for sv in shap_vals[:7]:
+                direction = sv.get("direction", "")
+                arrow     = "⬆️" if direction == "risk_increase" else "⬇️"
+                impact    = sv.get("impact", "LOW")
+                imp_color = {"HIGH": "#C0392B", "MEDIUM": "#E8A83E", "LOW": "#2D7A4F"}.get(impact, "#888")
+                shap_v    = sv.get("shap_value", 0)
+                bar_pct   = min(abs(shap_v) / 0.3 * 100, 100)
+                bar_color = "#C0392B" if direction == "risk_increase" else "#2D7A4F"
+
+                st.markdown(f"""
+                <div style='margin-bottom:0.6rem;'>
+                    <div style='display:flex; align-items:center; gap:0.5rem;
+                                font-size:0.78rem; margin-bottom:0.2rem;'>
+                        <span>{arrow}</span>
+                        <span style='flex:1; color:#1A3C2E;'>{sv.get("feature","")}</span>
+                        <span style='font-size:0.65rem; font-weight:700; padding:0.1rem 0.4rem;
+                                     border-radius:99px; background:{imp_color}22;
+                                     color:{imp_color};'>{impact}</span>
+                        <span style='font-family:monospace; font-size:0.7rem;
+                                     color:{bar_color};'>{shap_v:+.4f}</span>
+                    </div>
+                    <div style='background:#F0F0F0; border-radius:99px; height:4px;'>
+                        <div style='width:{bar_pct}%; background:{bar_color};
+                                    border-radius:99px; height:4px;'></div>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+        else:
+            st.info("SHAP values not available — check ml_output.json")
+
+    # ── CAM Narratives ─────────────────────────────────────
+    st.markdown("<div style='margin-top:1.5rem;'></div>", unsafe_allow_html=True)
+    narratives = profile.get("layer4_cam_narratives", {})
+    if narratives:
+        st.markdown("""
+        <div style='font-size:0.65rem; font-weight:600; letter-spacing:0.14em;
+                    text-transform:uppercase; color:#4A9268; margin-bottom:0.75rem;
+                    display:flex; align-items:center; gap:0.5rem;'>
+            CAM Narrative Summary
+            <span style='flex:1; height:1px; background:#C8E0CB;'></span>
+        </div>
+        """, unsafe_allow_html=True)
+
+        for title, text in narratives.items():
+            label = title.replace("_", " ").title()
+            st.markdown(f"""
+            <div style='background:#fff; border:1px solid #C8E0CB; border-radius:10px;
+                        padding:0.9rem 1.1rem; margin-bottom:0.6rem;'>
+                <div style='font-size:0.65rem; font-weight:600; letter-spacing:0.12em;
+                            text-transform:uppercase; color:#4A9268; margin-bottom:0.4rem;'>
+                    {label}
+                </div>
+                <div style='font-size:0.82rem; color:#1A3C2E; line-height:1.6;'>{text}</div>
+            </div>
+            """, unsafe_allow_html=True)
+
+    # ── Output documents ───────────────────────────────────
+    output_dir = BASE_DIR / "output_documents"
+    if output_dir.exists():
+        docx_files = list(output_dir.glob("*.docx"))
+        if docx_files:
+            st.markdown("<div style='margin-top:1.5rem;'></div>", unsafe_allow_html=True)
+            st.markdown("""
+            <div style='font-size:0.65rem; font-weight:600; letter-spacing:0.14em;
+                        text-transform:uppercase; color:#4A9268; margin-bottom:0.75rem;
+                        display:flex; align-items:center; gap:0.5rem;'>
+                Generated Documents
+                <span style='flex:1; height:1px; background:#C8E0CB;'></span>
+            </div>
+            """, unsafe_allow_html=True)
+
+            doc_cols = st.columns(3)
+            for i, doc in enumerate(sorted(docx_files)):
+                with doc_cols[i % 3]:
+                    with open(doc, "rb") as f:
+                        doc_bytes = f.read()
+                    st.download_button(
+                        label=f"📄 {doc.name.replace('_', ' ').replace('.docx','')}",
+                        data=doc_bytes,
+                        file_name=doc.name,
+                        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        use_container_width=True
+                    )
+
+    # ── Pipeline log expander ─────────────────────────────
+    with st.expander("Full Pipeline Log", expanded=False):
+        st.code(pipeline_log, language=None)
+    
+def _run_full_pipeline_ui(company_id: str, company_name: str):
+    """
+    Runs the full pipeline (L2→L7) with live Streamlit progress.
+    Shows each layer running, then displays the final CAM results.
+    """
+    import subprocess
+    import glob
+    import sys
+
+    st.markdown("---")
+    st.markdown("""
+    <div style='font-family:"DM Serif Display",serif; font-size:1.3rem;
+                color:#1A3C2E; margin-bottom:1rem;'>
+        Pipeline Execution
+    </div>
+    """, unsafe_allow_html=True)
+
+    LAYERS = [
+        ("layer2.py",                  "L2", "Feature Engineering",   "⚙️"),
+        ("layer3_research_agent.py",   "L3", "AI Research Agent",     "🔍"),
+        ("layer4_risk_scoring.py",                  "L4", "Risk Scoring Engine",   "⚖️"),
+        ("layer5.py",                  "L5", "ML Inference",          "🧠"),
+        ("layer6.py",                  "L6", "GenAI CAM Synthesis",   "✍️"),
+        ("layer7.js",                  "L7", "Document Generation",   "📄"),
+    ]
+
+    # Build status placeholder
+    status_placeholder = st.empty()
+    progress_placeholder = st.progress(0)
+    log_placeholder = st.empty()
+
+    layer_states = {name: "pending" for _, name, _, _ in LAYERS}
+
+    def render_pipeline_status(states, current_log=""):
+        color = {"pending": "#aaa", "running": "#E8A83E", "done": "#2D7A4F", "error": "#C0392B"}
+        bg    = {"pending": "#f9f9f9","running": "#FFF8EC","done": "#E8F8F0","error": "#FDECEA"}
+        icon  = {"pending": "○", "running": "◉", "done": "✓", "error": "✗"}
+
+        rows = ""
+        for _, lname, ldesc, lemoji in LAYERS:
+            s  = states.get(lname, "pending")
+            rows += f"""
+            <div style='display:flex; align-items:center; gap:1rem;
+                        padding:0.65rem 1rem; background:{bg[s]};
+                        border-radius:8px; margin-bottom:0.3rem;
+                        border:1px solid {color[s]}33;'>
+                <span style='font-size:1.1rem;'>{lemoji}</span>
+                <span style='font-size:0.75rem; font-weight:700; letter-spacing:0.1em;
+                             color:{color[s]}; width:24px;'>{icon[s]}</span>
+                <span style='font-size:0.82rem; font-weight:600;
+                             color:#1A3C2E; width:30px;'>{lname}</span>
+                <span style='font-size:0.82rem; color:#514C50; flex:1;'>{ldesc}</span>
+                <span style='font-size:0.65rem; font-weight:700; letter-spacing:0.1em;
+                             text-transform:uppercase; color:{color[s]};'>{s}</span>
+            </div>"""
+
+        status_placeholder.markdown(f"""
+        <div style='background:#fff; border-radius:14px; padding:1.25rem;
+                    border:1.5px solid #C8E0CB;'>{rows}</div>
+        """, unsafe_allow_html=True)
+
+        if current_log:
+            log_placeholder.code(current_log[-2000:], language=None)
+
+    render_pipeline_status(layer_states)
+
+    import time
+    all_logs = ""
+    success  = True
+
+    for i, (script, lname, ldesc, lemoji) in enumerate(LAYERS):
+        layer_states[lname] = "running"
+        render_pipeline_status(layer_states, all_logs)
+        progress_placeholder.progress(int((i / len(LAYERS)) * 100))
+
+        script_path = BASE_DIR / script
+
+        try:
+            if script.endswith(".js"):
+                # Layer 7 — node.js
+                cam_files = sorted(glob.glob(str(BASE_DIR / "cam_layer6_*.json")))
+                if not cam_files:
+                    layer_states[lname] = "error"
+                    all_logs += f"\n❌ L7: No cam_layer6_*.json found\n"
+                    render_pipeline_status(layer_states, all_logs)
+                    success = False
+                    break
+                cam_path = cam_files[-1]
+                import os as _os
+                _env = _os.environ.copy()
+                _env["PYTHONUTF8"] = "1"
+                _env["PYTHONIOENCODING"] = "utf-8"
+                result = subprocess.run(
+                    ["node", str(script_path), cam_path],
+                    cwd=str(BASE_DIR),
+                    capture_output=True, text=True, timeout=120,
+                    encoding='utf-8', errors='replace',
+                    env=_env
+                )
+            else:
+                t = 1800 if "layer3" in script else 600
+                import os as _os
+                _env = _os.environ.copy()
+                _env["PYTHONUTF8"] = "1"
+                _env["PYTHONIOENCODING"] = "utf-8"
+                result = subprocess.run(
+                    [sys.executable, str(script_path)],
+                    cwd=str(BASE_DIR),
+                    capture_output=True, text=True, timeout=t,
+                    encoding='utf-8', errors='replace',
+                    env=_env
+                )
+
+            all_logs += f"\n{'─'*40}\n[{lname}] {ldesc}\n{'─'*40}\n"
+            all_logs += result.stdout or ""
+            if result.stderr:
+                all_logs += f"\nSTDERR:\n{result.stderr[:500]}\n"
+
+            if result.returncode == 0:
+                layer_states[lname] = "done"
+            else:
+                layer_states[lname] = "error"
+                all_logs += f"\n❌ {lname} exited with code {result.returncode}\n"
+                render_pipeline_status(layer_states, all_logs)
+                success = False
+                break
+
+        except subprocess.TimeoutExpired:
+            layer_states[lname] = "error"
+            all_logs += f"\n❌ {lname} timed out\n"
+            success = False
+            break
+        except Exception as e:
+            layer_states[lname] = "error"
+            all_logs += f"\n❌ {lname} exception: {str(e)}\n"
+            success = False
+            break
+
+        render_pipeline_status(layer_states, all_logs)
+        time.sleep(0.3)
+
+    progress_placeholder.progress(100)
+
+    # ── Show results ──────────────────────────────────────
+    if success:
+        _render_results_dashboard(company_name, all_logs)
+    else:
+        st.error("Pipeline failed — see logs above for details.")
+        with st.expander("Full Log", expanded=True):
+            st.code(all_logs, language=None)
 
 # ============================================================
 # SIDEBAR — BORROWER IDENTITY
@@ -1090,7 +1534,7 @@ with col3:
         </div>
     </div>
     """, unsafe_allow_html=True)
-    annual_pdf = st.file_uploader("", type=["pdf"],
+    annual_pdf = st.file_uploader("Annual Report", type=["pdf"],
                                     key="annual_pdf", label_visibility="collapsed")
 
 with col4:
@@ -1105,7 +1549,7 @@ with col4:
         </div>
     </div>
     """, unsafe_allow_html=True)
-    valuation_pdf = st.file_uploader("", type=["pdf"],
+    valuation_pdf = st.file_uploader("Valuation Report", type=["pdf"],
                                        key="val_pdf", label_visibility="collapsed")
 
 
@@ -1141,7 +1585,9 @@ col_btn1, col_btn2, col_btn3 = st.columns([2, 1, 2])
 with col_btn2:
     run_btn = st.button("▶  Run Ingestion", use_container_width=True)
 
+
 if run_btn:
+    st.session_state["ingestion_done"] = True
     st.markdown("---")
     st.markdown("""
     <div style='font-family:"DM Serif Display",serif; font-size:1.3rem;
@@ -1377,12 +1823,38 @@ if run_btn:
     </div>
     """, unsafe_allow_html=True)
 
+    st.session_state["ingestion_done"] = True
+
+# ── Pipeline button — only shown after ingestion is done ──────
+if st.session_state.get("ingestion_done"):
+    st.markdown("<div style='margin-top:2rem;'></div>", unsafe_allow_html=True)
     st.markdown("""
-    <div style='background:#E8F8F0; border-radius:10px; padding:1rem 1.25rem;
-                border:1px solid #43AB54; margin-top:1rem;'>
-        <div style='font-weight:600; color:#1A3C2E;'>✅ Ingestion Complete</div>
-        <div style='font-size:0.82rem; color:#2D7A4F; margin-top:0.4rem;'>
-            Bronze files saved locally. Run <code>python layer2_local.py</code> next.
+    <div style='text-align:center; margin:1.5rem 0 0.5rem 0;'>
+        <div style='font-family:"DM Serif Display",serif; font-size:1.1rem;
+                    color:#1A3C2E; margin-bottom:0.5rem;'>
+            Ingestion complete - ready to analyse
+        </div>
+        <div style='font-size:0.8rem; color:#6B8C78;'>
+            Clicking below runs all 6 layers automatically and generates the CAM report
         </div>
     </div>
     """, unsafe_allow_html=True)
+
+    col_p1, col_p2, col_p3 = st.columns([1.5, 2, 1.5])
+    with col_p2:
+        if st.button(
+            "Run Full Pipeline - Generate CAM",
+            use_container_width=True,
+            type="primary",
+            key="run_pipeline_btn"
+        ):
+            st.session_state["pipeline_triggered"]    = True
+            st.session_state["pipeline_company_id"]   = company_id
+            st.session_state["pipeline_company_name"] = company_name
+
+if st.session_state.get("pipeline_triggered"):
+    _run_full_pipeline_ui(
+        st.session_state.get("pipeline_company_id",   "COMP_001"),
+        st.session_state.get("pipeline_company_name", "Unknown")
+    )
+    st.session_state["pipeline_triggered"] = False

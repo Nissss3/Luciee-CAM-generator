@@ -52,9 +52,10 @@ EMP_START     = date(2021, 4, 1)  # Company/promoter employment start
 
 # ── Paths ──────────────────────────────────────────────────────
 BASE_DIR    = Path(os.path.dirname(os.path.abspath(__file__)))
-BRONZE_ROOT = BASE_DIR / "raw_data" / "bronze" / COMPANY_ID
 OUTPUT_PATH = BASE_DIR / "borrower_profile.json"
 TODAY       = date.today()
+# NOTE: BRONZE_ROOT is set AFTER manifest is read below
+# so it uses the correct company_id from the manifest
 
 
 # ============================================================
@@ -126,25 +127,33 @@ print(f"\n{'='*55}")
 print(f"  LAYER 2 — Bronze → borrower_profile.json")
 print(f"{'='*55}")
 
-manifest_path = BRONZE_ROOT / "ingestion_manifest.json"
-if manifest_path.exists():
-    with open(manifest_path, "r") as f:
+# ── Find the latest ingestion manifest across ALL company folders ──
+# This ensures we always process the most recently ingested borrower
+bronze_base  = BASE_DIR / "raw_data" / "bronze"
+all_manifests = list(bronze_base.glob("*/ingestion_manifest.json"))
+
+if all_manifests:
+    # Pick the most recently modified manifest
+    latest_manifest = max(all_manifests, key=lambda f: f.stat().st_mtime)
+    with open(latest_manifest, "r") as f:
         manifest = json.load(f)
     borrower = manifest.get("borrower", {})
 
-    # Override config from manifest if available
-    COMPANY_ID    = borrower.get("company_id",    COMPANY_ID)
-    COMPANY_NAME  = borrower.get("company_name",  COMPANY_NAME)
-    INDUSTRY      = borrower.get("industry",      INDUSTRY)
-    PROMOTER_NAME = borrower.get("promoter_name", PROMOTER_NAME)
-    CIN           = borrower.get("cin",           CIN)
-    LOAN_AMOUNT   = float(borrower.get("loan_amount", LOAN_AMOUNT))
-    LOAN_PURPOSE  = borrower.get("loan_purpose",  LOAN_PURPOSE)
+    COMPANY_ID    = borrower.get("company_id",         COMPANY_ID)
+    COMPANY_NAME  = borrower.get("company_name",        COMPANY_NAME)
+    INDUSTRY      = borrower.get("industry",            INDUSTRY)
+    PROMOTER_NAME = borrower.get("promoter_name",       PROMOTER_NAME)
+    CIN           = borrower.get("cin",                 CIN)
+    LOAN_AMOUNT   = float(borrower.get("loan_amount",   LOAN_AMOUNT))
+    LOAN_PURPOSE  = borrower.get("loan_purpose",        LOAN_PURPOSE)
     LOAN_TENURE   = int(borrower.get("loan_tenure_years", LOAN_TENURE))
 
-    print(f"✅ Manifest loaded")
+    print(f"✅ Manifest loaded: {latest_manifest}")
 else:
     print(f"⚠️  No manifest found — using config defaults")
+
+# ── NOW set BRONZE_ROOT using the correct company_id ──────────────
+BRONZE_ROOT = BASE_DIR / "raw_data" / "bronze" / COMPANY_ID
 
 print(f"   Company  : {COMPANY_NAME}")
 print(f"   Industry : {INDUSTRY}")
